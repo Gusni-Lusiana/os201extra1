@@ -125,32 +125,32 @@ uid           [ultimate] Abdul Azis <azispro@icloud.com>
 sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
-      1963BE483E02BA97D749BEBA76E13F79CB6E215B
-uid           [ultimate] Abdul Azis <abdul.azis02@ui.ac.id>
+      1963BE02BA97D749BEBA76E13F79CB6E215B
+uid           [ultimate] Abdul Azis <abdu2@ui.ac.id>
 sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 
 4. EXPORT PUBLIC KEY
-== --export
+port
 == Perintah --export digunakan untuk mengirim public key
 == Contoh: 
-azispro@DESKTOP-F1JL3Q7:~$ gpg --armor --export abdul.azis02@ui.ac.i
+azispro@DESKTOP-F1JL3Q7:~$ gpg --armor --export abdul.azis02@ui.ac.id
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQGNBF8Ne8EBDACwDRUJAsXqwSnOcvt951alsYh1tWaGTjuCVoEj42nXXq5u5qHS
 6Ijtv8icXz8elSw/lW7ZSLnkjbF7Mzp5lnNxN9xYkTqO5ZpgJ/Mcp7pAcayKXude
-oKExHjYqWnaaNCsgdphT0MkqMQrYwpyjo6yA2rK1OmGY6csnEaecK4FhkEfqRMP7
+oKExHjYqWnaaNCsgdphT0MkqMQrYwpyjo6yA2rK1OmGY6csnEaecEfqRMP7
 mYNnk/jtMsRt0inOe5mGKbAX5JR2YBa7gOEYxAN41g6nWSRjLm02oPYCW0CMdXYr
 K3o8rTQnUYT8uMNPG3YiaKpuTGv/kuGfPy/8960GKkAQUuUn8/JOd6fNax4ciCd8
 tourbV6sanxumS8eG6S3480L/uaxBYbJWUY/JVmMMQPY1mhxrw675uPqeTmPZQl4
 eVsTS+tnCqoM3uwp2iRzSc9TCYvWhdLyYytLQ/wz18P4tYjvUX4befEJSpctOCz/
-pzDjdYm1eeQXT/qp/+Jt2iwtj8WwQgjLleruSlg8PjCP92F1+ia1B8hjFRDS
+pzDjdYm1eeQXT/qp/+JA8P2t2iwtj8WwQgjLleruSlg8PjCP92F1+ia1B8hjFRDS
 aY039ra0FDoCvscAEQEAAbQiQWJkdWwgQXppcyA8YWJkdWwuYXppczAyQHVpLmFj
 LmlkPokB1AQTAQoAPhYhBBljvkg+ArqX10m+unbhP3nLbiFbBQJfDXvBAhsDBQkD
-wmcABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEHbhP3nLbiFL+wUx1WRg
+wmcABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEHbhP3nLbiFbQCUL+wUx1WRg
 4pezJ5hgEEXpSaPvIqonX+Lt/JVwy5zBjE1tBxFWPVIZX98xhBXB87xSYLZtXGW7
 FP91HRatWr03V3ybQDIBii0TRI2RidFub6MZeEy/ZMQMRpOlytcfar6e9qDb+z3f
-FxjutN4rVI3XWRxOEt9stNySrfcPeFaVOesOkTbziFPRAvFU9sZbl8tKqDZ
+FxjutN4rVI3XWRxt0B2nOEt9stNySrfcPeFaVOesOkTbziFPRAvFU9sZbl8tKqDZ
 5S5s9lrIpQBYYHV1xZxI6iltKzK3G3VvvtJzLqY6t3PhKypE6Ah2ijbs13hvk0zY
 jkhTEGU+UgLgLK3LM2Vvmy7fVu/AU480qRfzhMUhtM/4L0kaFf4QgN7ZEjPNIRsc
 mn2sFeZOOITTVX+6NxVm9h4s90RypE31M9SaTUJyxckO6mglnyVEWX4ijQ/KKUTg
@@ -164,13 +164,13 @@ GnEw6sBquLsGqh/VhRV794/yBR56OKmZOO4ERF6611VFLHm40Wr8I+ivhXu90CWA
 MCbd0DdUDJaceGpBxOdKMA8nVjkYTtzgbYk7ZhmCRJOHCDKGhXQKgkZracUTO1Ph
 Fw8UWzHbl4gDQ4QhKgbdULHTG7tyxfqR+RgILLbjKLehi6PHjz4rwxxRg+67tyQS
 ov/Dd6aoGyNAz4+MKRmdoiat5ociBb45XudlW9Qpkg9VQ7IdXS50TgHEu8ftvZAK
-MrxBUMFFAAAGJAbwEGAEKACYWIQQZY75IPgK6l9dJvrp24T95y24hWwUCXw17
+MrxBUMFFABEBAAGJAbwEGAEKACYWIQQZY75IPgK6l9dJvrp24T95y24hWwUCXw17
 wQIbDAUJA8JnAAAKCRB24T95y24hW0KlC/0WihlsH8dwo3C9xufwv3ANNr9SaLpZ
 J85ZBSuQsn6Jn+1sjL3d2WurZd2yb/fQSeG7sw5Ts+O3T+Bk/HqZL5uYSY4SSt/C
 42Np4BN+0U1r8DeDvWXO5TvF0A4ePUUJ3WChdM/4mXr1zOnasaOSFv4Gx86WDbkn
 sjHfNeAnhPvCmK9afe1+7LlcP4wgBccqFhIxwtA9T/CAsSdDR9CJI8fwXV9SpWvS
 9JcRfIIrQAJT3r1XD+s2G0sZhpq/KsLw+86EeGRh3OUZ9E2stjKVaJfQHHDGOuJQ
-FrNyxb5XdavZHvJXgLmd+ztcJGbE57+W+Gqg/wG87Ih6N/DJAI4Ba57EMyA6RcCo
+FrNyxb5XdavZHvJXgLmd+ztcJGbE57+W+Gqg/wG87IDJAI4Ba57EMyA6RcCo
 LKWvN4eaKqAu83kj2UQrmmClWaySs3FwhtM4yHQ/8Y2nr/S5TAL3VwDysmAU3R5C
 qTDnWPIouXcwcmITms8jIBQVuMzhT+5sTWgK/gGFHlbt4U4zXtnUjJAexVIYkOpB
 p9VNCekOKGinLU4vt+SHk7nLFCE9TPCHj8M=
@@ -181,7 +181,7 @@ p9VNCekOKGinLU4vt+SHk7nLFCE9TPCHj8M=
 5. IMPORT PUBLIC KEY
 == --import
 == Perintah --import digunakan untuk memasukan public key
-== Con
+== Contoh: 
 azispro@DESKTOP-F1JL3Q7:~$ gpg --import azispub.gpg
 gpg: key 76E13F79CB6E215B: public key Abdul Azis <abdul.azis02@ui.ac.id> imported
 gpg: Total number processed: 1
@@ -191,15 +191,15 @@ gpg:               imported: 1
 6. ENKRIPSI PESAN
 == --encrypt
 == Perintah --encrypt digunakan untuk mengenkripsi pesan
-azispro@DESKTOP-F1JL3Q7:~$ gpg --output enkripsipesan.asc --encrypt --recipient azispro@icloud.com Cara-Menggunakan-GnuPG.txt
+azispro@DESKTOP-F1JL3Q7:~$ gpg --output enkripsipesan.asc --encrypt --recipient azispro@icloud.com Cara-Mean-GnuPG.txt
 
 
 7. DEKRIP PESAN
 == --decrypt
-== Perintah --decrypt digunakan untuk mengenkripsi pesan
+== Perintah --decrypt digunaka mengenkripsi pesan
 == Contoh:
-azispro@DESKTOP-F1JL3Q7:~$ gpg --output dekrippesan.txt --decrypt enkripsipesan.asc
-gpg: encrypted with 3072-bit RSA key, ID BD53FCC7D21719A0, created 2020-07-14
+azispro@DESK-F1JL3Q7:~$ gpg --output dsan.txt --decrypt enkripsipesan.asc
+gpg: encrypted with 3072-bit key, ID BD53FCC7D21719A0, created 2020-07-14
       Abdul Azis <azispro@icloud.com>
 
 
@@ -211,13 +211,13 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdberkas.asc --sign Cara-Menggunakan-Gn
 
 
 9. VERIFIKASI BERKAS
-== --ve
+== --verify
 == Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani
 == Contoh:
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdberkas.asc
 gpg: Signature made Tue Jul 14 18:14:59 2020 +07
-gpg:                using RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
-gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
+gpg:                using RSA key D9CDFC312D18A5A90F7B6F1768519CF3C290
+gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultim
 
 
 10. CLEARSIGNED BERKAS
@@ -232,7 +232,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --clearsign Cara-Menggunakan-GnuPG.txt
 == Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify Cara-Menggunakan-GnuPG.txt.asc
 gpg: Signature made Tue Jul 14 18:20:31 2020 +07
-gpg:               RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+gpg:                using RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
 gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
 gpg: WARNING: not a detached signature; file 'Cara-Menggunakan-GnuPG.txt' was NOT verified!
 
@@ -244,11 +244,207 @@ gpg: WARNING: not a detached signature; file 'Cara-Menggunakan-GnuPG.txt' was NO
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdterpisah.sig --detach Cara-Menggunakan-GnuPG.txt
 
 
-13.  VERIFIKASI TANDA TANGAN TERPISAH
+13.  VERIFIKASI TANDA TANGAN TISAH
 == --verify
 == Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani dengan tandan tangan yang terpisah
 == Contoh: 
-azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdterpisah.sig Cara-Menggunakan-GnuPG.txt
+azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdterpg Cara-Menggunakan-GnuPG.txt
 gpg: Signature made Tue Jul 14 18:23:09 2020 +07
 gpg:                using RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
 gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
+
+14. ENKRIPSI SIMETRIS
+== --symmetric
+== Perintah --symmetric digunakan untuk mengenkripsi simetris sebuah file
+== Contoh: 
+azispro@DESKTOP-F1JL3Q7:~$ gpg --symmetric Cara-Menggunakan-GnuPG.txt
+
+15. DEKRIPSI SIMETRIS
+== --decrypt
+== Perintah --symmetric digunakan untuk mendekripsi sebuah file yang telah dienkripsi
+== Contoh: 
+azispro@DESKTOP-F1JL3Q7:~$ gpg --output dekripsifile.txt --decrypt Cara-Menggunakan-GnuPG.txt.gpg
+gpg: AES256 encrypted data
+gpg: encrypted with 1 passphrase
+
+16. MULTIFILE
+== --multifile
+== Perintah --multifile digunakan untuk mengakses beberapa file
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --le --encrypt --recipient abdulazis483@gmail.com --recipient azispro@icloud.com azis1.txt azis2.txt
+gpg: 0D2BBA731F7DA2A4: There is no assurance this key belongs to the named user
+
+sub  rsa2048/0D2BBA731F7DA2A4 2020-06-03 Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+ Primary key fingerprint: AD43 8A66 27B1 B804 66E2  B458 3B70 01D9 14CC 44BE
+      Subkey fingerprint: 12EF A0EA 798B B186 CCE0  2625 0D2B BA73 1F7D A2A4
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+gpg: 0D2BBA731F7DA2A4: There is no assurance this key belongs to the named user
+
+sub  rsa2048/0D2BBA731F7DA2A4 2020-06-03 Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+ Primary key fingerprAD43 8A66 27B1 B804 66E2  B458 3B70 01D9 14CC 44BE
+      Subkey fingerprint: 12EF A0EA 798B B186 CCE0  2625 0D2B BA73 1F7D A2A4
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+
+
+17. DAFTAR PUBLIC KEY
+== --list-public-key
+== Perintah --list-public-key digunakan untuk menampilkan daftar public key
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --list-public-keys
+/home/azispro/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa2048 2020-06-03 [SC]
+      AD438A6627B1B80466E2B4583B7001D914CC44BE
+uid           [ unknown] Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+sub   rsa2048 2020-06-03 [E]
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+uid           [ultimate] Abdul Azis <azispro@icloud.com>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      1963BE483E97D749BEBA76E13F79CB6E215B
+uid           [ unknown] Abdul Azis <abdul.azis02@ui.ac.id>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+
+
+18. DAFTAR SECRET KEY
+== --list-secret-key
+== Perintah --list-secret-key  digunakan untuk menampilkan daftar secret key
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --list-secret-keys
+/home/azispro/.gnupg/pubring.kbx
+--------------------------------
+sec   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+uid           [ultimate] Abdul Azis <azispro@icloud.com>
+ssb   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+
+
+19. DAFTAR TANDA TANGAN
+== --list-sigs
+== Perintah --list-sigs  digunakan untuk menampilkan daftar tanda tangan yang tersimpan
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --list-sigs
+/home/azispro/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa2048 2020-06-03 [SC]
+      AD438A6627B1B80466E2B4583B7001D914CC44BE
+uid           [ unknown] Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+sig 3        3B7001D914CC44BE 2020-06-03  Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+sub   rsa2048 2020-06-03 [E]
+sig          3B7001D914CC44BE 2020-06-03  Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+uid           [ultimate] Abdul Azis <azispro@icloud.com>
+sig 3        6F1768519CF3C290 2020-07-14  Abdul Azis <azispro@icloud.com>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+sig          6F1768519CF3C290 2020-07-14  Abdul Azis <azispro@icloud.com>
+
+pub   rsa3072 2020-07-14 [SC] [expi022-07-14]
+      1963BE483E02BA97D749BEBA76E13F79CB6E215B
+uid           [ unknown] Abdul Azis <abdul.azis02@ui.ac.id>
+sig 3        76E13F79CB6E215B 2020-07-14  Abdul Azis <abdul.azis02@ui.ac.id>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+sig          76E13F79CB6E215B 2020-07-14  Abdul Azis <abdul.azis02@ui.ac.id>
+
+
+20. MENGECEK TANDA TANGAN
+== --check-sigs
+== Perintah --check-sigs  digunakan untuk menampilkan daftar tanda tangan yang terverifikasi
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --check-sigs
+/home/azispro/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa2048 2020-06-03 [SC]
+      AD438A6627B1B80466E2B4583B7001D914CC44BE
+uid           [ unknown] Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+sub   rsa2048 2020-06-03 [E]
+sig!         3B7001D914CC44BE 2020-06-03  Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+uid           [ultimate] Abdul Azis <azispro@icloud.com>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+sig!         6F1768519CF3C290 2020-07-14  Abdul Azis <azispro@icloud.com>
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      1963BE483E02BA97D749BEBA76E13F79CB6E215B
+uid           [ unknown] Abdul Azis <abdul.azis02@ui.ac.id>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+sig!         76E13F79CB6E215B 2020-07-14  Abdul Azis <abdul.azis02@ui.ac.id>
+
+gpg: 6 good signatures
+
+
+20. FINGERPRINT
+== --fingerprint
+== Perintah  --fingerprint  digunakan enampilkan daftar fingerprint
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --fingerprint
+/home/azispro/.gnupg/pubring.kbx
+--------------------------------
+pub   rsa2048 2020-06-03 [SC]
+      AD43 8A66 27B1 B804 66E2  B458 3B70 01D9 14CC 44BE
+uid           [ unknown] Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+sub   rsa2048 2020-06-03 [E]
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      D9CD 602C FC31 2D18 A5A9  0F7B 6F17 6851 9CF3 C290
+uid           [ultimate] Abdul Azis <azispro@icloud.com>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+
+pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
+      1963 BE48 3E02 BA97 D749  BEBA 76E1 3F79 CB6E 215B
+uid           [ unknown] Abdul Azis <abdul.azis02@ui.ac.id>
+sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
+
+
+21. HAPUS PUBLIC KEY
+== --delete-key
+== Perintah --delete-key digunakan untuk menghapus public key
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --delete-key abdulazis483@gmail.com
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+
+pub  rsa2048/3B7001D914CC44BE 2020-06-03 Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+
+Delete this key from the keyring? (y/N) y
+
+
+22. HAPUS SECRET KEY
+== --delete-secret-key
+== Perintah --delete-secret-key digunakan untuk menghapus secret key
+== Contoh:
+gpg --delete-secret-key abdulazis483@gmail.com
+gpg (GnuPG) 2.2.19; Copyright (C)Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+
+sec  rsa3072/8D2AEFE497EA8BDF 2020-07-14 Abdul Azis <abdulazis483@gmail.com>
+
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+
+
+23. EXPORT SECRET KEY
+== --export-secret-keys
+== Perintah --export-secret-keys digunakan untuk mengirim secret key
+== Contoh:
+azispro@DESKTOP-F1JL3Q7:~$ gpg --output secretazis.asc --export-secret-keys azispro@icloud.com
