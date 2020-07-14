@@ -1,0 +1,8 @@
+===Cara Menggunakan Latex pada MacOS 10.15.5===
+1. Install & download
+- Download Latex (https://www.latex-project.org/get/)
+- Install pada lokal
+- download Textstudio untuk mempermudah menngunakan Latex (https://www.texstudio.org/)
+- Install pada lokal
+2. Membuat file
+- Buat file pada TextStudio dengan extenstion file (.tex)
