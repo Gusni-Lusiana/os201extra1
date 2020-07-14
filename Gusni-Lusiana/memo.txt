@@ -4,5 +4,5 @@
 - Install pada lokal
 - download Textstudio untuk mempermudah menngunakan Latex (https://www.texstudio.org/)
 - Install pada lokal
-2. Membuat file
+2. Membuat file format Latex
 - Buat file pada TextStudio dengan extenstion file (.tex)
