@@ -1,0 +1,67 @@
+##TESTING NOTE
+//Berikut adalah tahapan proses Fuse yang dilakukan
+
+export akunGitHub="imamsetyo96"
+
+export PSTAMP="TMP1=\"\$(date +%y%m%d-%H%M%S)\"; TMP2=\"\$(sleep 1;echo \$TMP1-\$akunGitHub-\${PWD##*/}|sha1sum|cut -c1-4)\"; echo \"\$TMP1-\$TMP2-\${PWD##*/}/> \";";
+echo $PSTAMP ;  eval $PSTAMP;
+
+##TESTING
+
+//di dalam folder TUGAS5
+
+script K01-TEST-RESULT.txt
+PS1="$ "
+date
+echo $HOSTNAME
+echo $akunGitHub
+echo $PSTAMP
+PS1="\$(eval \$PSTAMP)"
+
+//masuk ke dalam folder fuse-tutorial-2018-02-04
+
+cd fuse-tutorial-2018-02-04
+
+//Instalasi Fuse dengan cara sebagai berikut
+
+./configure
+make
+cd example/
+ls -al rootdir/
+ls -al mountdir/
+cp ../../theFuseFile.txt rootdir/
+echo 'Bandingkan! (df)'
+df | grep bbfs
+../src/bbfs rootdir/ mountdir/
+echo 'Bandingkan! (df)'
+df | grep bbfs
+ls -al rootdir/
+ls -al mountdir/
+cat mountdir/theFuseFile.txt
+sleep 1
+echo ''
+echo 'Penting!!! Selalu akhiri dengan perintah fusemounter'
+sleep 1
+echo ''
+fusermount -u mountdir
+sleep 1
+echo ''
+echo 'Bandingkan! (df)'
+df | grep bbfs
+ls -al rootdir/
+ls -al mountdir/
+echo 'Berkas log bbfs.log'
+cat bbfs.log
+exit
+
+//keluar folder TUGAS5 untuk membuat file tar.bz2
+
+cd ../
+cd ../
+tar -zcvf 0007-TUGAS5.tar.bz2 TUGAS5
+
+//enkripsi asimetris
+
+gpg2 -o 0007-TUGAS5.tar.bz2.asc -e -r operatingsystems@vlsm.org -r imam.setyo@ui.ac.id -a 0007-TUGAS5.tar.bz2
+
+//Selesai
