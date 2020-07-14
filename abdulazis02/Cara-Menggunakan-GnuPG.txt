@@ -116,7 +116,7 @@ gpg: next trustdb check due at 2022-07-14
 --------------------------------
 pub   rsa2048 2020-06-03 [SC]
       AD438A6627B1B80466E2B4583B7001D914CC44BE
-uid           [ unknown] Azis (Universitas Indonesia) <abdulazis483@gmail.com>
+uid           [ unknown] Abdul Azis (Universitas Indonesia) <abdulazis483@gmail.com>
 sub   rsa2048 2020-06-03 [E]
 
 pub   rsa3072 2020-07-14 [SC] [expires: 2022-07-14]
@@ -134,7 +134,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 == --export
 == Perintah --export digunakan untuk mengirim public key
 == Contoh: 
-azispro@DESKTOP-F1JL3Q7:~$ gpg --armor --export abdul.azis02@ui.ac.id
+azispro@DESKTOP-F1JL3Q7:~$ gpg --armor --export abdul.azis02@ui.ac.i
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQGNBF8Ne8EBDACwDRUJAsXqwSnOcvt951alsYh1tWaGTjuCVoEj42nXXq5u5qHS
@@ -144,13 +144,13 @@ mYNnk/jtMsRt0inOe5mGKbAX5JR2YBa7gOEYxAN41g6nWSRjLm02oPYCW0CMdXYr
 K3o8rTQnUYT8uMNPG3YiaKpuTGv/kuGfPy/8960GKkAQUuUn8/JOd6fNax4ciCd8
 tourbV6sanxumS8eG6S3480L/uaxBYbJWUY/JVmMMQPY1mhxrw675uPqeTmPZQl4
 eVsTS+tnCqoM3uwp2iRzSc9TCYvWhdLyYytLQ/wz18P4tYjvUX4befEJSpctOCz/
-pzDjdYm1eeQXT/qp/+JA8P2t2iwtj8WwQgjLleruSlg8PjCP92F1+ia1B8hjFRDS
+pzDjdYm1eeQXT/qp/+Jt2iwtj8WwQgjLleruSlg8PjCP92F1+ia1B8hjFRDS
 aY039ra0FDoCvscAEQEAAbQiQWJkdWwgQXppcyA8YWJkdWwuYXppczAyQHVpLmFj
 LmlkPokB1AQTAQoAPhYhBBljvkg+ArqX10m+unbhP3nLbiFbBQJfDXvBAhsDBQkD
-wmcABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEHbhP3nLbiFbQCUL+wUx1WRg
+wmcABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEHbhP3nLbiFL+wUx1WRg
 4pezJ5hgEEXpSaPvIqonX+Lt/JVwy5zBjE1tBxFWPVIZX98xhBXB87xSYLZtXGW7
 FP91HRatWr03V3ybQDIBii0TRI2RidFub6MZeEy/ZMQMRpOlytcfar6e9qDb+z3f
-FxjutN4rVI3XWRxt0B2nOEt9stNySrfcPeFaVOesOkTbziFPRAvFU9sZbl8tKqDZ
+FxjutN4rVI3XWRxOEt9stNySrfcPeFaVOesOkTbziFPRAvFU9sZbl8tKqDZ
 5S5s9lrIpQBYYHV1xZxI6iltKzK3G3VvvtJzLqY6t3PhKypE6Ah2ijbs13hvk0zY
 jkhTEGU+UgLgLK3LM2Vvmy7fVu/AU480qRfzhMUhtM/4L0kaFf4QgN7ZEjPNIRsc
 mn2sFeZOOITTVX+6NxVm9h4s90RypE31M9SaTUJyxckO6mglnyVEWX4ijQ/KKUTg
@@ -161,10 +161,10 @@ bg75OQMSl4jXcoPjo4GnrMLWO5hR7rzs8mMtm66QUNEC8UZJopJCRRNuafuT9lqw
 CfB8ydha4phlx3arBoBKD3rsl2E4IrUN69Mvu3DCOM3MZXnY4dxmuULia0QNuW3R
 GnEw6sBquLsGqh/VhRV794/yBR56OKmZOO4ERF6611VFLHm40Wr8I+ivhXu90CWA
 8LVM5WhfDUQqbqwDjWRxMyHrA+5N3mR1a/BwUTz4hiNSBt1T6Iv9PcFW+QeXSfB3
-MCbd0DdUDJBxOdKMA8nVjkYTtzgbYk7ZhmCRJOHCDKGhXQKgkZracUTO1Ph
+MCbd0DdUDJaceGpBxOdKMA8nVjkYTtzgbYk7ZhmCRJOHCDKGhXQKgkZracUTO1Ph
 Fw8UWzHbl4gDQ4QhKgbdULHTG7tyxfqR+RgILLbjKLehi6PHjz4rwxxRg+67tyQS
 ov/Dd6aoGyNAz4+MKRmdoiat5ociBb45XudlW9Qpkg9VQ7IdXS50TgHEu8ftvZAK
-MrxBUMFFABEBAAGJAbwEGAEKACYWIQQZY75IPgK6l9dJvrp24T95y24hWwUCXw17
+MrxBUMFFAAAGJAbwEGAEKACYWIQQZY75IPgK6l9dJvrp24T95y24hWwUCXw17
 wQIbDAUJA8JnAAAKCRB24T95y24hW0KlC/0WihlsH8dwo3C9xufwv3ANNr9SaLpZ
 J85ZBSuQsn6Jn+1sjL3d2WurZd2yb/fQSeG7sw5Ts+O3T+Bk/HqZL5uYSY4SSt/C
 42Np4BN+0U1r8DeDvWXO5TvF0A4ePUUJ3WChdM/4mXr1zOnasaOSFv4Gx86WDbkn
@@ -181,7 +181,7 @@ p9VNCekOKGinLU4vt+SHk7nLFCE9TPCHj8M=
 5. IMPORT PUBLIC KEY
 == --import
 == Perintah --import digunakan untuk memasukan public key
-== Contoh: 
+== Con
 azispro@DESKTOP-F1JL3Q7:~$ gpg --import azispub.gpg
 gpg: key 76E13F79CB6E215B: public key Abdul Azis <abdul.azis02@ui.ac.id> imported
 gpg: Total number processed: 1
@@ -211,7 +211,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdberkas.asc --sign Cara-Menggunakan-Gn
 
 
 9. VERIFIKASI BERKAS
-== --verify
+== --ve
 == Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani
 == Contoh:
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdberkas.asc
@@ -230,7 +230,11 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --clearsign Cara-Menggunakan-GnuPG.txt
 11. VERIFIKASI CLEARSIGNED BERKAS
 == --verify
 == Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani
-azispro@DESKTOP-F1JL3Q7:~$ gpg --verify Cara-MenggunakPG.txt.asc
+azispro@DESKTOP-F1JL3Q7:~$ gpg --verify Cara-Menggunakan-GnuPG.txt.asc
+gpg: Signature made Tue Jul 14 18:20:31 2020 +07
+gpg:               RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
+gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
+gpg: WARNING: not a detached signature; file 'Cara-Menggunakan-GnuPG.txt' was NOT verified!
 
 
 12.  TANDA TANGAN TERPISAH
@@ -248,8 +252,3 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdterpisah.sig Cara-Menggunakan-GnuPG.t
 gpg: Signature made Tue Jul 14 18:23:09 2020 +07
 gpg:                using RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
 gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
-azispro@DESKTOP-F1JL3Q7:~$ gpg --verify Cara-Menggunakan-GnuPG.txt.asc
-gpg: Signature made Tue Jul 14 18:20:31 2020 +07
-gpg:                using RSA key D9CD602CFC312D18A5A90F7B6F1768519CF3C290
-gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
-gpg: WARNING: not a detached signature; file 'Cara-Menggunakan-GnuPG.txt' was NOT verified!
