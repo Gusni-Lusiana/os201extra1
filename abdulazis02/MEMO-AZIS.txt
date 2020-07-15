@@ -1,0 +1,29 @@
+A. KEMAJUAN
+== 1. Telah mengerjakan pembahasan dan contoh menjalankan GnuPG sekitar 40% pada 14 Juli 2020
+== 2  Telah mengerjakan pembhasan dan contoh GnuPG 60% dan SHA1SUM 50% pada 15 Juli 2020
+
+==========================================================
+B. YANG TELAH DIKERJAKAN
+
+Selasa, 14 Juli 2020
+Telah mengerjakan pembahasan dan contoh menggunakan GnuPG sebanyak 27 perintah berserta contohnya
+
+Rabu, 15 Juli 2020
+Telah mengerjakan pembahasan dan contoh menggunakan SHA1SUM
+
+==========================================================
+C. RENCANA
+
+Rencana Kamis, 16 Juli 2020 adalah sebagai berikut:
+1. Menambahkan penjelasan dan contoh perintah GnuPG sekitar 10 perintah baru
+2. Menambahkan penjelasan dan contoh SHA1SUM dalam penggunaan lain 
+3. Mengadakan jadwal kolaborasi dengan tim 
+4. Mempelajari kembali materi UAS dan membuat panduan
+
+==========================================================
+D. KOORDINASI
+
+Telah melakukan Kolaborasi dengan Saudara Imam Setyo dan Gusni Lusiana pada 15 Juli 2020 Pukul 20.00 dan menghasilkan pembagian tugas sebagai berikut
+1. Abdul Azis: GnuPG dan SHA1SUM
+2. Imam Setyo: Gitlab
+3. Gusni Lusiana: Github
