@@ -1,9 +1,15 @@
 ==== Cara Menggunakan Github ====
 
 1. Signup / membuat akun Github
-Membuka web github dan melakukan pendafataran.
+a. Membuka web github "http://github.com" dan melakukan pendafataran,
+melengkapi data dan create account.
+b. melakukan verifikasi melalui link yang dikirim pada email.
+c. setelah berhasil kita akan dapat mengakses laman github kita, sbb :
+http://github.com/username
+contoh : http://github.com/Gusni-Lusiana
 
-untuk langkah awal kita dapat membuat repository untuk folder pengerjaan.
+
+Untuk langkah awal kita dapat membuat repository untuk folder pengerjaan.
 cara membuat repository :
 1. klik button "+"" atau Create repository
 hal -hal yang perlu diisi ketika membuat repository :
@@ -38,3 +44,10 @@ perintah gitpush:
 =======================================================
 $ git push origin master
 =======================================================
+
+
+
+Tambahan :
+Kita juga bisa menggunakan Github desktop sehingga mempermudah dalam pengelolaan,
+dan pengerjaan project.
+
