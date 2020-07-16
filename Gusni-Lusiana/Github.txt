@@ -1,0 +1,41 @@
+==== Cara Menggunakan Github ====
+
+1. Signup / membuat akun Github
+Membuka web github dan melakukan pendafataran.
+
+untuk langkah awal kita dapat membuat repository untuk folder pengerjaan.
+cara membuat repository :
+1. klik button "+"" atau Create repository
+hal -hal yang perlu diisi ketika membuat repository :
+a. Repository name : merupakan nama proyek yang akan ada pada isi repository
+b. Description : merupakan penjelasan mengenai isi repository
+c. Public/Private :  ketersediaan repository di public (di buat umum) atau private (dibuat pribadi dan tidak dapat diakses/dilihat oleh orang lain)
+d. Intiallize the repository with README : tidak mandatory
+
+Beberapa tools yang dapat digunakan pada Github :
+
+1. Gitclone
+Gitlon adalah operasi untuk mendownload sebuah repository, contoh :
+
+=======================================================
+$ git clone https://github.com/UI-FASILKOM-OS/os201.git
+$ cd advancetrust/
+=======================================================
+
+2. Git Pull
+
+Gitpull adalah operasi pengambilan atau penarikan data, sering digunakan jika dalam satu repository memiliki banyak kontributor dan project dilakukan bersama-sama.
+
+contoh gitpull:
+=======================================================
+$ git pull origin master
+=======================================================
+
+3. Gitpush
+Gitpush adalah operasi memasukan file atau folder hasil pekerjaan.
+
+perintah gitpush:
+=======================================================
+$ git push origin master
+=======================================================
+
