@@ -1,6 +1,0 @@
-//FUSE adalah sebuah kerangka file system (sistem berkas) 
-pada area pengguna, yang mana terdiri dari sebuah modul kernel, 
-pustaka pada area pengguna, dan sebuah utilitas untuk melakukan 
-proses mount. Salah satu keistimewaan FUSE yang paling utama adalah 
-diizikannya proses mount oleh pengguna biasa yang aman. Hal ini memberikan 
-kemungkinan baru untuk menggunakan sistem berkas.
