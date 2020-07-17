@@ -1,5 +1,0 @@
-=== Memo 2 ===
-- Telah membuat TEXT mengenai cara mengunakan Github
-- Untuk selanjutnya akan menyempurnakan template Latex dan juga pengerjaan pembagian tugas selanjutnya, mengenai UAS.
-- 15 June 2002, 20.00 WIB melakukan meeting online menggunakan tools google meet.
-sharing tentang kesulitan masing-masing dan melakukan pembagian tugas.
