@@ -16,4 +16,30 @@ GnuPG dapat digunakan dengan sendirinya sebagai aplikasi command-line (mis., Unt
 
 GnuPG dapat dijalankan di sistem operasi di Microsoft Windows, Mac OS X, berbagai Unix gratis, AIX, Solaris, HPUX, OpenVMS, dan banyak lagi. Orang-orang bahkan bekerja untuk porting ke smartphone seperti Android.
 
+b. ShareMemory
 
+ShareMemory adalah fitur yang didukung oleh UNIX System V, termasuk Linux, SunOS dan Solaris. Satu proses harus secara eksplisit meminta area, menggunakan kunci, untuk dibagikan oleh proses lain. Proses ini akan disebut server. Semua proses lain, klien, yang mengetahui area bersama dapat mengaksesnya. 
+Namun, tidak ada perlindungan untuk memori bersama dan setiap proses yang tahu itu dapat mengaksesnya secara bebas. Untuk melindungi memori bersama agar tidak diakses secara bersamaan oleh beberapa proses, protokol sinkronisasi harus disiapkan.
+
+Segmen ShareMemory diidentifikasi oleh integer unik, ID ShareMemory. ShareMemory itu sendiri dijelaskan oleh struktur tipe shmid_ds dalam file header sys / shm.h. Untuk menggunakan file ini, file sys / types.h dan sys / ipc.h harus disertakan. Karena itu, program Anda harus mulai dengan baris-baris berikut:
+
+#include <sys / types.h>
+#include <sys / ipc.h>
+#include <sys / shm.h>
+
+Skema umum penggunaan ShareMemory adalah sebagai berikut:
+
+Untuk server, itu harus dimulai sebelum klien. Server harus melakukan tugas-tugas berikut:
+Mintalah ShareMemory dengan kunci memori dan hafalkan ID ShareMemory yang dikembalikan. Ini dilakukan oleh system call shmget ().
+Lampirkan ShareMemory ini ke ruang alamat server dengan sistim panggilan sistem ().
+Inisialisasi ShareMemory, jika perlu.
+Lakukan sesuatu dan tunggu penyelesaian semua klien.
+Lepaskan ShareMemory dengan system call shmdt ().
+Hapus ShareMemory dengan shmctl panggilan sistem ().
+Untuk bagian klien, prosedurnya hampir sama:
+Mintalah memori bersama dengan kunci memori yang sama dan hafalkan ID memori bersama yang dikembalikan.
+Lampirkan memori bersama ini ke ruang alamat klien.
+Gunakan memori.
+Lepaskan semua segmen memori yang dibagikan, jika perlu.
+Keluar.
+Pada beberapa halaman berikutnya, kami akan menjelaskan panggilan sistem ini dan penggunaannya.
