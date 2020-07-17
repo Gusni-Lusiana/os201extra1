@@ -1,0 +1,13 @@
+=== Memo 3 ===
+- Telah menyempurnakan template latex yang nanti akan digunakan pada laporan
+tugas tambahan, kami akan membaginya menjadi 3 BAB.
+BAB 1 Pendahuluan : berisi tentang penjelasan dan deskripsi singkat mengenai
+beberapa hal yang telah ditugaskan (con: github, git, fuse, dll)
+BAB 2 Penggunaan : menjelaskan tentang bagaimana cara menggunakannya.
+BAB 3 Pemanfaantan : beirisi tentang bagaimana pengaplikasiannya,
+dimana dalam hal ini bagaimana hal-hal tersebut digunakan untuk UAS.
+
+- Untuk selanjutnya akan mengerjakan dan revisi beberapa hal yang ditugaskan,
+git dan github, dll
+- melakukan diskusi online melalui chat WA mengenai perbedaan mendasar git dan github,
+dan penyusunan laporan akhir.
