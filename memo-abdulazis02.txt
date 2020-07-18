@@ -3,6 +3,7 @@ A. KEMAJUAN
 == 2  Telah mengerjakan pembhasan dan contoh GnuPG 60% dan SHA1SUM 50% pada 15 Juli 2020
 == 3. Telah menjelaskan pembahasan pendahuluan tentang GnuPG
 == 4. Telah menjelaskan pembahasan pendahuluan tentang ShareMemory
+== 5. Melengkapi penjelasan GnuPG
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
@@ -18,6 +19,9 @@ Memulai pendahuluan tentang penjelasan GnuPG
 
 Jum'at, 17 Juli 2020
 Memulai pendahuluan tentang penjelasan ShareMemory
+
+Sabtu, 18 Juli 2020
+Melengkapi penjelasan GnuPG
 
 ==========================================================
 C. RENCANA
@@ -35,6 +39,9 @@ Sabtu, 18 Juli 2020
 1. Melengkapi Pendahuluan penjelasan tentang GnuPG dan ShareMemory 
 2. Tutorial dan contoh ShareMemory
 
+Minggu, 19 Juli 2020
+1. Tutorial dan contoh ShareMemory
+
 ==========================================================
 D. KOORDINASI
 
@@ -51,4 +58,7 @@ Imam: SHA1SUM dan Fuse
 Gusni: Git dan Github
 
 17 Juli 2020:
+Membahas perkembangan tugas masing-masing
+
+18 Juli 2020:
 Membahas perkembangan tugas masing-masing
