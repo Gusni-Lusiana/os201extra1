@@ -1,0 +1,99 @@
+==============================================================================
+SHA, SHA1 DAN SHA1SUM
+==============================================================================
+
+I. SHA
+
+SHA adalah fungsi hash satu-arah yang dibuat oleh NIST dan digunakan bersama DSS (Digital Signature Standard).
+Oleh NSA, SHA dinyatakan sebagai standard fungsi hash satu-arah. SHA didasarkan pada MD4 yang dibuat 
+oleh Ronald L. Rivest dari MIT. Algoritma SHA menerima masukan berupa pesan dengan ukuran 
+maksimum 264 bit (2.147.483.648 gigabyte) dan menghasilkan message digest yang panjangnya 160 bit,
+lebih panjang dari message digest yang dihasilkan oleh MD5. SHA mengacu pada keluarga fungsi hash
+satu-arah. Empat varian SHA: SHA-0, SHA-1, SHA2, SHA3. SHA-0 sering diacu sebagai SHA saja. 
+Namun pada pembahasan ini, yang akan dibahas adalah SHA-1.
+
+(image:perbedaan-fungsi-sha.png)
+
+SHA-0 : Retronym yang diterapkan pada versi asli dari fungsi hash 160-bit yang diterbitkan pada tahun 1993 dengan 
+        nama "SHA". Versi ini telah ditarik dari publikasi dan digantikan oleh versi SHA-1 yang sedikit direvisi.
+SHA-1 : Fungsi hash 160-bit yang menyerupai algoritma MD5 sebelumnya. Versi ini dirancang oleh National Security Agency (NSA) 
+        untuk menjadi bagian dari Digital Signature Algorithm. Kelemahan kriptografi ditemukan di SHA-1, dengan standar yang tidak 
+        lagi disetujui untuk sebagian besar penggunaan kriptografi setelah tahun 2010.
+SHA-2 : Satu keluarga dengan dua fungsi hash yang serupa, dengan ukuran blok yang berbeda, dikenal sebagai SHA-256 dan 
+        SHA-512 . Mereka berbeda dalam ukuran kata; SHA-256 menggunakan kata-kata 32-byte di mana SHA-512 menggunakan 
+        kata-kata 64-byte. Ada juga versi terpotong dari setiap standar, yang dikenal sebagai SHA-224 , SHA-384 , 
+        SHA-512/224 dan SHA-512/256 . Versi ini juga dirancang oleh NSA.
+SHA-3 : Fungsi hash yang sebelumnya disebut Keccak , dipilih pada 2012 setelah kompetisi publik di antara desainer 
+        non-NSA. Ini mendukung panjang hash yang sama seperti SHA-2, dan struktur internalnya berbeda secara signifikan 
+        dari sisa keluarga SHA. Standar yang sesuai adalah FIPS PUB 180 (SHA asli), FIPS PUB 180-1 (SHA-1), 
+        FIPS PUB 180-2 (SHA-1, SHA-256, SHA-384, dan SHA-512). NIST telah memperbarui Draft FIPS Publikasi 202, 
+        Standar SHA-3 terpisah dari Standar Secure Hash (SHS). 
+
+II. PENGERTIAN DAN SEJARAH SHA1
+
+Secure Hash Algorithm (SHA) dikembangkan oleh NIST (National Institue of Standars and Technology) dan 
+digunakan bersama DSS (Digital Signature Standart). SHA-1 adalah revisi terhadap SHA. Awalnya SHA 1 dianggap aman 
+karena dirancang sedemikian rupa sehingga secara komputasi tidak mungkin menemukan pesan yang 
+berkoresponden dengan message digest yang diberikan. SHA 1 memiliki panjang 20 bytes 
+atau 40 karakter, contohnya: 356a192b7913b04c54574d18c28d46e6395428ab. 
+
+(image:skema-message-digest-sha1.png)
+
+Pada tahun 1993, NIST (National Institute of Standards and Technology) dan NSA (National Security Agency) 
+mendesain dan mempublikasikan SHA. SHA kemudian berkembang dan mengalami revisi pada tahun 1995 menjadi 
+SHA 1 yang telah diadopsi oleh Amerika sebagai fungsi hash dalam skema digital signature algorithm (DSA) 
+dalam FIPS 180-1 serta diadopsi juga oleh Internet RFC3174-nb. SHA 1 pada dasarnya merupakan hasil 
+rekonstruksi struktur pada algoritma MD4. SHA 1 memetakan inputan string dengan panjang sembarang 
+menjadi suatu nilai hash dengan panjang tetap yaitu 160 bit. Ukuran internal state pada SHA 1 
+adalah 160 bit, sedangkan ukuran bloknya adalah 64 bytes.
+
+III. TENTANG SHA1SUM
+
+SHA1SUM adalah program komputer yang menghitung dan memverifikasi hash SHA-1. SHA1SUM biasanya digunakan 
+untuk memverifikasi integritas file yang dimana secara default digunakan di sebagian besar 
+distribusi Linux. Varian SHASUM (yang memungkinkan SHA-1 hingga fungsi hash SHA-512 untuk 
+dipilih secara manual) adalah SHA224SUM, SHA256SUM, SHA384SUM, dan SHA512SUM, yang menggunakan fungsi 
+hash SHA-2 tertentu, dan SHA3sum (yang memungkinkan SHA-3 hingga SHA3-512, SHAKE, RawSHAKE, dan 
+Keccak yang dapat dipilih secara manual). Versi SHA1SUM juga tersedia untuk Microsoft Windows, dengan 
+distribusi ActivePerl yang mencakup implementasi Perl SHASUM. Pada FreeBSD dan OpenBSD, utilitas 
+yang digunakan adalah md5, SHA1, SHA256, dan SHA512, namun versi ini menawarkan opsi dan fitur yang sedikit 
+berbeda. Contoh operasi dasar penggunaan SHA1SUM:
+
+Untuk membuat file dengan hash SHA1 di dalamnya, jika tidak ada:
+==  sha1sum filename [ filename2 ] ...> SHA1SUM
+
+Jika mendistribusikan satu file, ".sha1" dapat ditambahkan ke nama file misalnya:
+==  sha1sum --binary my-zip.tar.gz> my-zip.tar.gz.sha1
+
+Output berisi satu baris per file dalam bentuk " {hash} SPACE (ASTERISK|SPACE) [{directory} SLASH] {filename} ". 
+(Catat juga, jika kreasi hash digest dilakukan dalam mode teks biner, maka akan ada dua karakter spasi 
+yang terdapat pada satu karakter spasi dan asterisk.) Misalnya:
+==  sha1sum -b my-zip.tar.gz
+    d5db29cd03a2ed055086cef9c31c252b4587d6d0 *my-zip.tar.gz
+==  sha1sum -b subdir/filename2
+    55086cef9c87d6d031cd5db29cd03a2ed0252b45 *subdir/filename2
+
+Untuk memverifikasi bahwa suatu file telah diunduh dengan benar atau belum dirusak:
+==  sha1sum -c SHA1SUM
+    nama file: OKE
+    filename2: Oke
+==  sha1sum -c my-zip.tar.gz.sha1
+    my-zip.tar.gz: Oke
+
+HASH FILE TREES:
+Sha1sum hanya dapat membuat checksum dari satu atau beberapa file di dalam direktori, tetapi tidak dari pohon direktori, 
+yaitu subdirektori, sub-subdirektori, dll, juga file yang dikandungnya. Hal ini dapat dilakukan dengan menggunakan 
+kombinasi sha1sum yaitu perintah find dengan opsi -exec , atau dengan mem - piping output dari perintah find tersebut 
+ke dalam xargs . Perintah sha1deep dapat membuat checksum dari pohon direktori.
+
+Menggunakan sha1sum dengan perintah find :
+==  find s_ * -type f -exec sha1sum '{}' \;
+    65c23f142ff6bcfddeccebc0e5e63c41c9c1721 s_1 / file_s11
+    d3d59905cf5fc930cd4bf5b709d5ffdbaa9443b2 s_2 / file_s21
+    5590e00ea904568199b86aee4b770fb1b5645ab8 s_a / file_02
+
+Demikian juga, piping output dari perintah find ke dalam xargs menghasilkan output yang sama:
+==  find s_ * -type f |  xargs sha1sum
+    65c23f142ff6bcfddeccebc0e5e63c41c9c1721 s_1 / file_s11
+    d3d59905cf5fc930cd4bf5b709d5ffdbaa9443b2 s_2 / file_s21
+    5590e00ea904568199b86aee4b770fb1b5645ab8 s_a / file_02
