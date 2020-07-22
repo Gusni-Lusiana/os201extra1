@@ -1,0 +1,24 @@
+A. KEMAJUAN
+== 1. Melengkapi cara dan memnyiapkan image untuk tutorial penggunaan Github
+== 2  Telah menyelesaikan template Latex untuk digunakan pada laporan
+
+==========================================================
+
+B. YANG TELAH DIKERJAKAN
+
+Selasa, 21 Juli 2020
+mengerjakan dan push file pada osextra1/pribadi
+
+==========================================================
+
+C. RENCANA
+
+Rabu, 22 Juli 2020
+mulai compile beberapa pembahasan yang telah dibuat pada latex
+
+==========================================================
+
+D. KOORDINASI
+
+Rabu, 22 Juli 2020
+via chat whatsup group : melakukan pengecekan terhadap setiap pembahasan yang telah dibuat.
