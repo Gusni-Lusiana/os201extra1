@@ -8,7 +8,7 @@ A. KEMAJUAN
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
-Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan UAS 3 
+Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3 
 
 ==========================================================
 C. RENCANA
