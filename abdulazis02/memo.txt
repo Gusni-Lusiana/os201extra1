@@ -3,6 +3,7 @@ A. KEMAJUAN
 == 2  Telah mengerjakan pembhasan dan contoh Sha1SUM
 == 3. Telah menjelaskan pembahasan pendahuluan tentang ShareMemory
 == 4. Melengkapi penjelasan GnuPG
+== 5. Mengerjakan UAS 3
 == 6. Menjelaskan pembahasan UAS 3
 
 ==========================================================
@@ -16,8 +17,11 @@ C. RENCANA
 Jum'at 24 Juli 2020
 Membahas Penjelasan UAS 3
 
-Sabtu, 25 Juli 2020
+Senin, 27 Juli 2020
 Memberi TIPS PELAKSANAAN UAS 3
+
+Selasa, 28 Juli 2020
+Menambahkan TIPS PELAKSANAAN UAS 3
 
 ==========================================================
 D. KOORDINASI
