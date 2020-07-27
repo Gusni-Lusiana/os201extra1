@@ -2,25 +2,26 @@ A. KEMAJUAN
 == 1. Melengkapi cara dan memnyiapkan image untuk tutorial penggunaan Github
 == 2. Telah menyelesaikan template Latex untuk digunakan pada laporan
 == 3. Telah menyelesaikan tentang cara penggunaan gcc dan Makefile
+== 4. Telah mempelajari dan memulai membuat tips untuk UAS
 
 ==========================================================
 
 B. YANG TELAH DIKERJAKAN
 
-Kamis, 23 Juli 2020
+senin, 27 Juli 2020
 1. Melengkapi dan menyelesaikan tentang cara penggunaan gcc dan makefile.
 
 ==========================================================
 
 C. RENCANA
 
-Jum'at, 24 Juli 2020
-1. Melanjutkan compile pembahasan yang telah selesai dibuat pada latex.
-2. mempelajari kembali materi UAS
+Selasa, 28 Juli 2020
+1. Melanjutkan compile pembahasan dari rekan lain yang telah selesai dibuat pada latex.
+2. Membuat tips untuk pengerjaan UAS
 
 ==========================================================
 
 D. KOORDINASI
 
-Rabu, 23 Juli 2020
+Senin, 27 Juli 2020
 tidak ada diskusi dihari ini
