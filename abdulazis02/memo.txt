@@ -1,64 +1,29 @@
 A. KEMAJUAN
-== 1. Telah mengerjakan pembahasan dan contoh menjalankan GnuPG sekitar 40% pada 14 Juli 2020
-== 2  Telah mengerjakan pembhasan dan contoh GnuPG 60% dan SHA1SUM 50% pada 15 Juli 2020
-== 3. Telah menjelaskan pembahasan pendahuluan tentang GnuPG
-== 4. Telah menjelaskan pembahasan pendahuluan tentang ShareMemory
-== 5. Melengkapi penjelasan GnuPG
+== 1. Telah mengerjakan pembahasan dan contoh menjalankan GnuPG
+== 2  Telah mengerjakan pembhasan dan contoh Sha1SUM
+== 3. Telah menjelaskan pembahasan pendahuluan tentang ShareMemory
+== 4. Melengkapi penjelasan GnuPG
+== 5. Mengerjakan UAS 3
+== 6. Menjelaskan pembahasan UAS 3
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
-Selasa, 14 Juli 2020
-Telah mengerjakan pembahasan dan contoh menggunakan GnuPG sebanyak 27 perintah berserta contohnya
-
-Rabu, 15 Juli 2020
-Telah mengerjakan pembahasan dan contoh menggunakan SHA1SUM
-
-Kamis, 16 Juli 2020
-Memulai pendahuluan tentang penjelasan GnuPG
-
-Jum'at, 17 Juli 2020
-Memulai pendahuluan tentang penjelasan ShareMemory
-
-Sabtu, 18 Juli 2020
-Melengkapi penjelasan GnuPG
+Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3 
 
 ==========================================================
 C. RENCANA
 
-Kamis, 16 Juli 2020 adalah sebagai berikut:
-1. Menambahkan penjelasan dan contoh perintah GnuPG sekitar 10 perintah baru
-2. Menambahkan penjelasan dan contoh SHA1SUM dalam penggunaan lain 
-3. Mengadakan jadwal kolaborasi dengan tim 
-4. Mempelajari kembali materi UAS dan membuat panduan
+Jum'at 24 Juli 2020
+Membahas Penjelasan UAS 3
 
-Jumat, 17 Juli 2020
-1. Menambahkan Pendahuluan penjelasan tentang GnuPG dan ShareMemory
+Senin, 27 Juli 2020
+Memberi TIPS PELAKSANAAN UAS 3
 
-Sabtu, 18 Juli 2020
-1. Melengkapi Pendahuluan penjelasan tentang GnuPG dan ShareMemory 
-2. Tutorial dan contoh ShareMemory
-
-Minggu, 19 Juli 2020
-1. Tutorial dan contoh ShareMemory
+Selasa, 28 Juli 2020
+Menambahkan TIPS PELAKSANAAN UAS 3
 
 ==========================================================
 D. KOORDINASI
 
-15 Juli 2020: 
-Telah melakukan Kolaborasi dengan Saudara Imam Setyo dan Gusni Lusiana pada 15 Juli 2020 Pukul 20.00 dan menghasilkan pembagian tugas sebagai berikut
-1. Abdul Azis: GnuPG dan SHA1SUM
-2. Imam Setyo: Gitlab
-3. Gusni Lusiana: Github
-
-16 Juli 2020:
-Pembagian pembahasan BAB 1 Pendahuluan
-Abdul Azis: GnuPG dan Sharememory
-Imam: SHA1SUM dan Fuse
-Gusni: Git dan Github
-
-17 Juli 2020:
-Membahas perkembangan tugas masing-masing
-
-18 Juli 2020:
 Membahas perkembangan tugas masing-masing
