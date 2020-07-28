@@ -5,6 +5,7 @@ A. KEMAJUAN
 == 4. Melengkapi penjelasan GnuPG
 == 5. Mengerjakan UAS 3
 == 6. Menjelaskan pembahasan UAS 3
+== 7. Revisi pembahasan UAS 3
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
@@ -22,6 +23,9 @@ Memberi TIPS PELAKSANAAN UAS 3
 
 Selasa, 28 Juli 2020
 Menambahkan TIPS PELAKSANAAN UAS 3
+
+Selasa, 28 Juli 2020
+Revisi TIPS PELAKSANAAN UAS 3
 
 ==========================================================
 D. KOORDINASI
