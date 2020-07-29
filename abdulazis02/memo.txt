@@ -5,12 +5,12 @@ A. KEMAJUAN
 == 4. Melengkapi penjelasan GnuPG
 == 5. Mengerjakan UAS 3
 == 6. Menjelaskan pembahasan UAS 3
-== 7. Revisi pembahasan UAS 3
+== 7. Revisi pengerjaan dan pembahasan UAS 3
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
-Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3 
+Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3, revisi pengerjaan UAS 3
 
 ==========================================================
 C. RENCANA
@@ -24,7 +24,10 @@ Memberi TIPS PELAKSANAAN UAS 3
 Selasa, 28 Juli 2020
 Menambahkan TIPS PELAKSANAAN UAS 3
 
-Selasa, 28 Juli 2020
+Rabu, 29 Juli 2020
+Revisi TIPS PELAKSANAAN UAS 3
+
+Kamis, 30 Juli 2020
 Revisi TIPS PELAKSANAAN UAS 3
 
 ==========================================================
