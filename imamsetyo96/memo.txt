@@ -1,38 +1,28 @@
 A. KEMAJUAN
 
-16 Juli 2020:
-Telah mengerjakan pembahasan dan contoh instalasi Git
-
-17 Juli 2020:
-Telah mengerjakan pendahuluan tentang sha1 dan sha1sum
-
-18 Juli 2020:
-Menambahkan pendahuluan tentang sha, sha1 dan sha1sum
-
-==========================================================
-B. RENCANA
-
-19 Juli 2020:
-1. Menambahkan pembahasan pendahuluan terkait fuse
-2. Mengadakan jadwal kolaborasi dengan tim
+1.  Telah mengerjakan pembahasan dan contoh instalasi Git
+2.  Telah mengerjakan pendahuluan tentang sha1 dan sha1sum
+3.  Menambahkan pendahuluan tentang sha, sha1 dan sha1sum
+4.  Mengerjakan pendahuluan tentang fuse
+5.  Menambahkan tambahan materi pendahuluan terkait fuse
+6.  Mengerjakan UAS5
+7.  Menjelaskan pembahasan terkait pengerjaan UAS5
+8.  Menambahkan penjelasan terkait pengerjaan UAS5
+9.  Menambahkan contoh dan screenshot penggunaan sha1sum
 
 ==========================================================
-C. KOORDINASI
+B. YANG TELAH DIKERJAKAN
 
-15 Juli 2020:
-Pembagian tugas uji coba:
-Abdul Azis: GnuPG dan SHA1SUM
-Imam Setyo: Git
-Gusni Lusiana: Github
+Membahas terkait Git, sha, sha1, sha1sum, fuse, dan UAS5
 
-16 Juli 2020:
-Pembagian pembahasan BAB 1 Pendahuluan:
-Abdul Azis: GnuPG dan Sharememory
-Imam: SHA1SUM dan Fuse
-Gusni: Git dan Github
+==========================================================
+C. RENCANA
 
-17 Juli 2020:
-Membahas perkembangan tugas masing-masing
+30 Juli 2020:
+1.  Menambahkan pembahasan dan contoh screenshot penggunaan sha1sum, \
+    dan melanjutkan pembahasan pengerjaan UAS5
 
-18 Juli 2020:
+==========================================================
+D. KOORDINASI
+
 Membahas perkembangan tugas masing-masing
