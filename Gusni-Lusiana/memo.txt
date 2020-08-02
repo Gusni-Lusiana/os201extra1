@@ -3,25 +3,26 @@ A. KEMAJUAN
 == 2. Telah menyelesaikan template Latex untuk digunakan pada laporan
 == 3. Telah menyelesaikan tentang cara penggunaan gcc dan Makefile
 == 4. Telah mempelajari dan memulai membuat tips untuk UAS
+== 5. Compile semua pembahasan kedalam format Latex (github, gnupg, git, dll)
 
 ==========================================================
 
 B. YANG TELAH DIKERJAKAN
 
-senin, 27 Juli 2020
-1. Melengkapi dan menyelesaikan tentang cara penggunaan gcc dan makefile.
+Minggu, 2 Agustus 2020
+1. Compile semua pembahasan kedalam format Latex (github, gnupg, git, dll)
+2. Melengkapi tips untuk UAS
 
 ==========================================================
 
 C. RENCANA
-
-Selasa, 28 Juli 2020
-1. Melanjutkan compile pembahasan dari rekan lain yang telah selesai dibuat pada latex.
-2. Membuat tips untuk pengerjaan UAS
+Senin, 3 Agustus 2020
+1. Menyelesaikan semua tips UAS, untuk dicompile menjadi Latex di tgl 4 agustus,
+sehingga dapat submit tugas pada tanggal 5 agustus.
 
 ==========================================================
 
 D. KOORDINASI
 
-Senin, 27 Juli 2020
-tidak ada diskusi dihari ini, akan diskusi berikutnya hari selasa 28 juli 2020
+Minggu, 2 Agustus 2020
+melalui chatgroup wa
