@@ -11,6 +11,7 @@ A. KEMAJUAN
 B. YANG TELAH DIKERJAKAN
 
 Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3, revisi pengerjaan UAS 3
+Pembenaran UAS 3
 
 ==========================================================
 C. RENCANA
@@ -32,6 +33,9 @@ Revisi TIPS PELAKSANAAN UAS 3
 
 Senin, 3 Agustus 2020
 Compile Tips Pelaksanaan UAS 3 > 0012-TIPS-PELAKSANAAN-UAS-3.txt.asc
+
+Selasa, 4 Agustus 2020
+Pengerjaan UAS 4
 
 ==========================================================
 D. KOORDINASI
