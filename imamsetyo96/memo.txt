@@ -9,6 +9,7 @@ A. KEMAJUAN
 7.  Menjelaskan pembahasan terkait pengerjaan UAS5
 8.  Menambahkan penjelasan terkait pengerjaan UAS5
 9.  Menambahkan contoh dan screenshot penggunaan sha1sum
+10. Melanjutkan pembahasan UAS5
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
@@ -18,9 +19,8 @@ Membahas terkait Git, sha, sha1, sha1sum, fuse, dan UAS5
 ==========================================================
 C. RENCANA
 
-30 Juli 2020:
-1.  Menambahkan pembahasan dan contoh screenshot penggunaan sha1sum, \
-    dan melanjutkan pembahasan pengerjaan UAS5
+4 Agustus 2020:
+1. Menyelesaikan Tips UAS5
 
 ==========================================================
 D. KOORDINASI
