@@ -44,4 +44,4 @@ Menghapus Warning UAS 5 dan compile seluruh UAS
 ==========================================================
 D. KOORDINASI
 
-Membahas perkembangan tugas masing-masing
+Membahas perkembangan tugas masing-masing terutama UAS 3, 4 dan 5
