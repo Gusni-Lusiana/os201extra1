@@ -9,20 +9,18 @@ A. KEMAJUAN
 
 B. YANG TELAH DIKERJAKAN
 
-Minggu, 2 Agustus 2020
-1. Compile semua pembahasan kedalam format Latex (github, gnupg, git, dll)
-2. Melengkapi tips untuk UAS
+Senin, 3 Agustus 2020
+1. Melakukan pengecekan untuk UAS 3 (karena sebelumnya hanyak mencapai nilai setengah)
 
 ==========================================================
 
 C. RENCANA
-Senin, 3 Agustus 2020
-1. Menyelesaikan semua tips UAS, untuk dicompile menjadi Latex di tgl 4 agustus,
-sehingga dapat submit tugas pada tanggal 5 agustus.
+Rabu, 4 Agustus 2020
+1. Melanjutkan diskusi untuk uas 3,4,5
 
 ==========================================================
 
 D. KOORDINASI
 
-Minggu, 2 Agustus 2020
+Senin, 3 Agustus 2020
 melalui chatgroup wa
