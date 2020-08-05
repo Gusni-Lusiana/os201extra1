@@ -7,20 +7,21 @@ A. KEMAJUAN
 5.  Telah mengerjakan pembahasan Git
 6.  Telah mengerjakan pembahasan Sha, Sha1, dan Sha1sum
 7.  Telah mengerjakan pembahasan Terkait File System, Fuse, dan UAS TUGAS5
+8.  Telah mengerjakan UAS 1, 2, 3, 4, dan 5
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
 Membahas terkait Scripting Sederhana Shell/Bash, Editor Linux, Pemrograman C dan MakeFile, 
-Tar, Git, Sha, Sha1, dan Sha1sum, dan File System, Fuse, dan UAS TUGAS5
+Tar, Git, Sha, Sha1, dan Sha1sum, dan File System, Fuse, dan mengerjakan UAS 1, 2, 3, 4, dan 5.
 
 ==========================================================
 C. RENCANA
 
-5 Agustus 2020:
-1.  Finalisasi Program UAS 1,2,3,4,5 dan Pembahasan UAS Ekstra
+6 Agustus 2020:
+1.  Finalisasi Laporan Akhir
 
 ==========================================================
 D. KOORDINASI
 
-Membahas Finalisasi Program UAS 1,2,3,4,5 dan Pembahasan UAS Ekstra
+Membahas Finalisasi Laporan Akhir
