@@ -7,12 +7,13 @@ A. KEMAJUAN
 == 6. Menjelaskan pembahasan UAS 3
 == 7. Revisi pengerjaan dan pembahasan UAS 3
 == 8. Menghilangkan Warning UAS 3 dan 4
+== 9. Compile UAS 
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
 Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3, revisi pengerjaan UAS 3
-Pembenaran UAS 3, menghapus warning UAS 3 dan UAS 4
+Pembenaran UAS 3, menghapus warning UAS 3 dan UAS 4, pembahasan UAS 4
 
 ==========================================================
 C. RENCANA
@@ -40,6 +41,9 @@ Pengerjaan UAS 4
 
 Rabu, 5 Agustus 2020
 Menghapus Warning UAS 5 dan compile seluruh UAS
+
+Kamis, 06 Agustus 2020
+Compile seluruh UAS
 
 ==========================================================
 D. KOORDINASI
