@@ -1,28 +1,26 @@
 A. KEMAJUAN
 
-1.  Telah mengerjakan pembahasan dan contoh instalasi Git
-2.  Telah mengerjakan pendahuluan tentang sha1 dan sha1sum
-3.  Menambahkan pendahuluan tentang sha, sha1 dan sha1sum
-4.  Mengerjakan pendahuluan tentang fuse
-5.  Menambahkan tambahan materi pendahuluan terkait fuse
-6.  Mengerjakan UAS5
-7.  Menjelaskan pembahasan terkait pengerjaan UAS5
-8.  Menambahkan penjelasan terkait pengerjaan UAS5
-9.  Menambahkan contoh dan screenshot penggunaan sha1sum
-10. Melanjutkan pembahasan UAS5
+1.  Telah mengerjakan pembahasan Scripting Sederhana Shell/Bash
+2.  Telah mengerjakan pembahasan Editor Linux
+3.  Telah mengerjakan pembahasan Pemrograman C dan MakeFile
+4.  Telah mengerjakan pembahasan Tar
+5.  Telah mengerjakan pembahasan Git
+6.  Telah mengerjakan pembahasan Sha, Sha1, dan Sha1sum
+7.  Telah mengerjakan pembahasan Terkait File System, Fuse, dan UAS TUGAS5
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
-Membahas terkait Git, sha, sha1, sha1sum, fuse, dan UAS5
+Membahas terkait Scripting Sederhana Shell/Bash, Editor Linux, Pemrograman C dan MakeFile, 
+Tar, Git, Sha, Sha1, dan Sha1sum, dan File System, Fuse, dan UAS TUGAS5
 
 ==========================================================
 C. RENCANA
 
-4 Agustus 2020:
-1. Menyelesaikan Tips UAS5
+5 Agustus 2020:
+1.  Finalisasi Program UAS 1,2,3,4,5 dan Pembahasan UAS Ekstra
 
 ==========================================================
 D. KOORDINASI
 
-Membahas perkembangan tugas masing-masing
+Membahas Finalisasi Program UAS 1,2,3,4,5 dan Pembahasan UAS Ekstra
