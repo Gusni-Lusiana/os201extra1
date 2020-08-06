@@ -8,6 +8,7 @@ A. KEMAJUAN
 == 7. Revisi pengerjaan dan pembahasan UAS 3
 == 8. Menghilangkan Warning UAS 3 dan 4
 == 9. Compile UAS 
+== 10. finalisasi laporan akhir
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
