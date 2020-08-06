@@ -8,6 +8,7 @@ A. KEMAJUAN
 6.  Telah mengerjakan pembahasan Sha, Sha1, dan Sha1sum
 7.  Telah mengerjakan pembahasan Terkait File System, Fuse, dan UAS TUGAS5
 8.  Telah mengerjakan UAS 1, 2, 3, 4, dan 5
+9.  Finalisasi tips dan pembahasan UAS TUGAS5
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
