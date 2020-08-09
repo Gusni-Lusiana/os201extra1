@@ -9,12 +9,13 @@ A. KEMAJUAN
 == 8. Menghilangkan Warning UAS 3 dan 4
 == 9. Compile UAS 
 == 10. finalisasi laporan akhir
+== 11. Revisi Laporan Akhir via MD
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
 
 Membahas dan penjelasan GnuPG, Sha1SUM, ShareMemory dan mengerjakan UAS 3, revisi pengerjaan UAS 3
-Pembenaran UAS 3, menghapus warning UAS 3 dan UAS 4, pembahasan UAS 4
+Pembenaran UAS 3, menghapus warning UAS 3 dan UAS 4, pembahasan UAS 4, revisi via MD
 
 ==========================================================
 C. RENCANA
