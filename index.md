@@ -3,7 +3,7 @@
 
 [HOME  |  ](index.md)
 [README  |  ](README.md)
-[Scripting  |  ]((index.md)
+[Scripting  |  ](index.md)
 [Editor-Linux  |  ](#editorlinux)
 [Gcc  |  ](#gcc)
 [MakeFile  |  ](#makefile)
