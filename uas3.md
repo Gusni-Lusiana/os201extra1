@@ -1,6 +1,18 @@
 ---
-
-
+[HOME  |  ](index.md)
+[README  |  ](README.md)
+[Scripting  |  ](#scripting)
+[Editor-Linux  |  ](#editorlinux)
+[Gcc  |  ](#gcc)
+[MakeFile  |  ](#makefile)
+[TAR  |  ](#tar)
+[Git  |  ](#git)
+[GitHub  |  ](#github)
+[SHA1  |  ](#sha1)
+[GnuPG  |  ](#gnupg)
+[UAS-3  |  ](#uas3.md)
+[UAS-4  |  ](#uas4.md)
+[UAS-5](#uas5.md)
 
 # Petunjuk UAS 3
 
@@ -236,7 +248,7 @@ int main(int argc, char* argv[]) {
 $ export akunGitHub="abdulazis02"
 $ export PSTAMP="TMP1=\"\$(date +%y%m%d-%H%M%S)\"; TMP2=\"\$(sleep 1;
 ```
-Mulai Scripting
+* Mulai Scripting
 ```
 $ script K-01-TEST-RESULT.txt
 ```
