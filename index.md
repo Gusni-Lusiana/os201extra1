@@ -1,16 +1,17 @@
 
 [HOME](index.md)
 [ABOUT](README.md)
-[SCRIPTING](#1.scripting)
-[EDITOR LINUX](#editorlinux)
 [SCRIPTING](#scripting)
-[SCRIPTING](#scripting)
-[SCRIPTING](#scripting)
-[SCRIPTING](#scripting)
-[SCRIPTING](#scripting)
-[SCRIPTING](#scripting)
+[EDITORLINUX](#editorlinux)
+[GCC](#gcc)
+[MAKEFILE](#makefile)
+[TAR](#tar)
+[Git](#git)
+[GitHub](#github)
+[SHA](#sha)
+[GnuPG](#gnupg)
 
-# 1. Scripting
+# Scripting
 
 ## 1. Scripting Sederhana<br>
 **1.1. Perintah dasar linux dan fungsinya<br>**
@@ -119,19 +120,19 @@ Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (gan
 
 # EditorLinux 
 
-# 3. Pemrograman C
+# GCC
 
-# 4. MakeFile
+# MakeFile
 
-# 5. TAR
+# TAR
 
-# 6. GIT
+# GIT
 
-# 7. GitHub
+# GitHub
 
-# 8. SHA, SHA1, dan SHA1SUM
+# SHA, SHA1, dan SHA1SUM
 
-# 9. GnuPG
+# GnuPG
 
 ## A. CARA INSTALL GnuPG
 
