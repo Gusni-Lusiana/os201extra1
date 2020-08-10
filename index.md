@@ -135,28 +135,28 @@ Silahkan download GnuPG
 ## B. INFORMASI GnuPG
 
 * Version `--version` <br>
-Perintah --version digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)<br>
+Perintah `--version` digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --version
 ```
 
 * Help `--help` <br>
-Perintah untuk menampilkan informasi pilihan baris perintah yang paling berguna<br>
+Perintah `--help` untuk menampilkan informasi pilihan baris perintah yang paling berguna<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --help
 ```
 
 * Warranty `--warranty`  <br>
-Perintah ini digunakan untuk menampilkan informasi tentang jaminan<br>
+Perintah `--warranty` ini digunakan untuk menampilkan informasi tentang jaminan<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --warranty
 ```
 
 * Dump Options `--dump-options` <br>
-Perintah ini digunakan untuk menampilkan daftar semua pilihan perintah yang tersedia<br>
+Perintah `--dump-options` ini digunakan untuk menampilkan daftar semua pilihan perintah yang tersedia<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
@@ -168,7 +168,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
 
 * PEMBUATAN KEY BARU
 `--gen-key` <br>
-Perintah --gen-key digunakan untuk membuat keypair primer baru<br>
+Perintah `--gen-key` digunakan untuk membuat keypair primer baru<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --gen-key
@@ -206,7 +206,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 * PENCABUTAN SERTIFIKASI
 `--gen-revoke` <br>
-Perintah --gen-revoke digunakan untuk membuat certificate pembatalan<br>
+Perintah `--gen-revoke` digunakan untuk membuat certificate pembatalan<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output azis.asc --gen-revoke abdul.azis02@ui.ac.id
@@ -237,7 +237,7 @@ your machine might store the data and make it available to others!
 
 * MELIHAT DAFTAR KEY
 `--list-keys` <br>
-Perintah --list-keys digunakan untuk menampilkan daftar key
+Perintah `--list-keys` digunakan untuk menampilkan daftar key
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --list-keys
@@ -265,7 +265,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 * EXPORT PUBLIC KEY
 `--export` <br>
-Perintah --export digunakan untuk mengirim public key<br>
+Perintah `--export` digunakan untuk mengirim public key<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --armor --export abdul.azis02@ui.ac.id
@@ -314,7 +314,7 @@ p9VNCekOKGinLU4vt+SHk7nLFCE9TPCHj8M=
 
 * IMPORT PUBLIC KEY
 `--import` <br>
-Perintah --import digunakan untuk memasukan public key<br>
+Perintah `--import` digunakan untuk memasukan public key<br>
 Contoh: 
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --import azispub.gpg
@@ -325,7 +325,7 @@ gpg:               imported: 1
 
 * ENKRIPSI PESAN
 --encrypt <br>
-Perintah --encrypt digunakan untuk mengenkripsi pesan<br>
+Perintah `--encrypt` digunakan untuk mengenkripsi pesan<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output enkripsipesan.asc --encrypt --recipient azispro@icloud.com Cara-Mean-GnuPG.txt
@@ -334,7 +334,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --output enkripsipesan.asc --encrypt --recipient 
 
 * DEKRIP PESAN
 `--decrypt` <br>
-Perintah --decrypt digunaka mengenkripsi pesan<br>
+Perintah `--decrypt` digunaka mengenkripsi pesan<br>
 Contoh:
 ```
 azispro@DESK-F1JL3Q7:~$ gpg --output dsan.txt --decrypt enkripsipesan.asc
@@ -344,7 +344,7 @@ gpg: encrypted with 3072-bit key, ID BD53FCC7D21719A0, created 2020-07-14
 
 * MENANDATANGANI BERKAS
 `--sign` <br>
-Perintah --sign digunakan untuk menandatangani berkas dengan mengenkripsi dokumen.<br>
+Perintah `--sign` digunakan untuk menandatangani berkas dengan mengenkripsi dokumen.<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdberkas.asc --sign Cara-Menggunakan-GnuPG.txt
@@ -352,7 +352,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdberkas.asc --sign Cara-Menggunakan-Gn
 
 * VERIFIKASI BERKAS
 `--verify` <br>
-Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani<br>
+Perintah `--verify` digunakan untuk memverifikasi berkas yang telah ditandatangani<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdberkas.asc
@@ -363,14 +363,15 @@ gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultim
 
 * CLEARSIGNED BERKAS
 `--clearsign` <br>
-Perintah --clearsign digunakan untuk menandatangani berkas tanpa mengenkripsi dokumen <br>
+Perintah `--clearsign` digunakan untuk menandatangani berkas tanpa mengenkripsi dokumen <br>
 Contoh:
+```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --clearsign Cara-Menggunakan-GnuPG.txt
-
+```
 
 * VERIFIKASI CLEARSIGNED BERKAS
 `--verify` <br>
-Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani<br>
+Perintah `--verify` digunakan untuk memverifikasi berkas yang telah ditandatangani<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify Cara-Menggunakan-GnuPG.txt.asc
@@ -382,7 +383,7 @@ gpg: WARNING: not a detached signature; file 'Cara-Menggunakan-GnuPG.txt' was NO
 
 *  TANDA TANGAN TERPISAH
 `--detach-sig` <br>
-Perintah --detach-sig untuk membuat tanda tangan terpisah dari berkas<br>
+Perintah `--detach-sig` untuk membuat tanda tangan terpisah dari berkas<br>
 Contoh: 
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdterpisah.sig --detach Cara-Menggunakan-GnuPG.txt
@@ -390,7 +391,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --output ttdterpisah.sig --detach Cara-Menggunaka
 
 *  VERIFIKASI TANDA TANGAN TISAH
 `--verify` <br>
-Perintah --verify digunakan untuk memverifikasi berkas yang telah ditandatangani dengan tandan tangan yang terpisah <br>
+Perintah `--verify` digunakan untuk memverifikasi berkas yang telah ditandatangani dengan tandan tangan yang terpisah <br>
 Contoh: 
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --verify ttdterpg Cara-Menggunakan-GnuPG.txt
@@ -401,7 +402,7 @@ gpg: Good signature from Abdul Azis <azispro@icloud.com> [ultimate]
 
 * ENKRIPSI SIMETRIS
 `--symmetric` <br>
-Perintah --symmetric digunakan untuk mengenkripsi simetris sebuah file<br>
+Perintah `--symmetric` digunakan untuk mengenkripsi simetris sebuah file<br>
 Contoh: 
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --symmetric Cara-Menggunakan-GnuPG.txt
@@ -409,7 +410,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --symmetric Cara-Menggunakan-GnuPG.txt
 
 * DEKRIPSI SIMETRIS
 `--decrypt`<br>
-Perintah --symmetric digunakan untuk mendekripsi sebuah file yang telah dienkripsi<br>
+Perintah `--symmetric` digunakan untuk mendekripsi sebuah file yang telah dienkripsi<br>
 Contoh: 
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output dekripsifile.txt --decrypt Cara-Menggunakan-GnuPG.txt.gpg
@@ -419,7 +420,7 @@ gpg: encrypted with 1 passphrase
 
 * MULTIFILE
 `--multifile`<br>
-Perintah --multifile digunakan untuk mengakses beberapa file<br>
+Perintah `--multifile` digunakan untuk mengakses beberapa file<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --le --encrypt --recipient abdulazis483@gmail.com --recipient azispro@icloud.com azis1.txt azis2.txt
@@ -473,7 +474,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 * DAFTAR SECRET KEY
 `--list-secret-key`<br>
-Perintah --list-secret-key  digunakan untuk menampilkan daftar secret key<br>
+Perintah `--list-secret-key`  digunakan untuk menampilkan daftar secret key<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --list-secret-keys
@@ -487,7 +488,7 @@ ssb   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 * DAFTAR TANDA TANGAN
 `--list-sigs`<br>
-Perintah --list-sigs  digunakan untuk menampilkan daftar tanda tangan yang tersimpan<br>
+Perintah `--list-sigs`  digunakan untuk menampilkan daftar tanda tangan yang tersimpan<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --list-sigs
@@ -517,7 +518,7 @@ sig          76E13F79CB6E215B 2020-07-14  Abdul Azis <abdul.azis02@ui.ac.id>
 
 * MENGECEK TANDA TANGAN
 `--check-sigs`<br>
-Perintah --check-sigs  digunakan untuk menampilkan daftar tanda tangan yang terverifikasi<br>
+Perintah `--check-sigs`  digunakan untuk menampilkan daftar tanda tangan yang terverifikasi<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --check-sigs
@@ -545,8 +546,8 @@ gpg: 6 good signatures
 ```
 
 * FINGERPRINT
-`--fingerprint`
-Perintah  --fingerprint  digunakan enampilkan daftar fingerprint<br>
+`--fingerprint` <br>
+Perintah  `--fingerprint`  digunakan enampilkan daftar fingerprint<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --fingerprint
@@ -570,7 +571,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 
 * HAPUS PUBLIC KEY
 `--delete-key`<br>
-Perintah --delete-key digunakan untuk menghapus public key<br>
+Perintah `--delete-key` digunakan untuk menghapus public key<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --delete-key abdulazis483@gmail.com
@@ -586,7 +587,7 @@ Delete this key from the keyring? (y/N) y
 
 * HAPUS SECRET KEY
 `--delete-secret-key`<br>
-Perintah --delete-secret-key digunakan untuk menghapus secret key<br>
+Perintah `--delete-secret-key` digunakan untuk menghapus secret key<br>
 Contoh:
 ```
 gpg --delete-secret-key abdulazis483@gmail.com
@@ -603,7 +604,7 @@ This is a secret key! - really delete? (y/N) y
 
 * EXPORT SECRET KEY
  `--export-secret-keys`<br>
-Perintah --export-secret-keys digunakan untuk mengirim secret key<br>
+Perintah `--export-secret-keys` digunakan untuk mengirim secret key<br>
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output secretazis.asc --export-secret-keys azispro@icloud.com
