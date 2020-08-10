@@ -2,7 +2,7 @@
 [HOME](index.md)
 [ABOUT](README.md)
 [SCRIPTING](#1.scripting)
-[EDITOR LINUX](#2.editorlinux)
+[EDITOR LINUX](#editorlinux)
 [SCRIPTING](#scripting)
 [SCRIPTING](#scripting)
 [SCRIPTING](#scripting)
