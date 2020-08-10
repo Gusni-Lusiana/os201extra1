@@ -333,7 +333,7 @@ int main(int argc, char* argv[]) {
 $ export akunGitHub="abdulazis02"
 $ export PSTAMP="TMP1=\"\$(date +%y%m%d-%H%M%S)\"; TMP2=\"\$(sleep 1;
 Mulai Scripting
-		$ script K-04-TEST-RESULT.txt
+$ script K-04-TEST-RESULT.txt
 ```
 # TEST-KIT
 ```
@@ -362,7 +362,8 @@ ubuntu
 $ echo $akunGitHub
 abdulazis02
 $ echo $PSTAMP
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; 
+echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
 200805-144114-be5e-TUGAS4/> make clean
 rm -f p00 p01 p02 SharedMemoryFile.bin
