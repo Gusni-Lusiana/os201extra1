@@ -62,28 +62,40 @@ $ which bash
 $PWD merupakan sebuah variabel yang sudah didefinisikan oleh bash. Dengan meletakkan variabel dalam tanda petik dua (“), bash akan mengganti pernyataan variabel tersebut dengan nilainya, kemudian barulah perintah (dalam kasus ini perintah echo) dijalankan. Nilai variabel $PWD adalah path direktori aktif, layaknya output dari perintah pwd.
 
 Contoh 2:
-```!/bin/bash```
+```
+!/bin/bash
+```
 Menampilkan beberapa informasi
  
 Menampilkan nama user
-```echo "Halo $USER!"```
+```
+echo "Halo $USER!"
+```
  
 Menampilkan nama file shell script yang sedang dijalankan
-```echo "Anda sedang menjalankan file bash script '$0'"```
+```
+echo "Anda sedang menjalankan file bash script '$0'"
+```
  
 Menampilkan tanggal lokal
-```echo -n "Hari ini tanggal "; date +"%d %B %Y"```
+```
+echo -n "Hari ini tanggal "; date +"%d %B %Y"
+```
  
 Menampilkan nama direktori aktif
-```echo -n "Anda sedang berada di lokasi "; pwd```
+```
+echo -n "Anda sedang berada di lokasi "; pwd
+```
  
 Menampilkan isi direktori aktif
-```echo "Berikut merupakan beberapa file yang terdapat pada direktori aktif:";
+```
+echo "Berikut merupakan beberapa file yang terdapat pada direktori aktif:";
 ls
 ```
 
 Simpan file tersebut dengan nama tampilkaninfo, kemudian rubah hak akses file agar dapat dieksekusi, dan jalankan.
-```$ chmod 755 tampilkaninfo
+```
+$ chmod 755 tampilkaninfo
 $ ./tampilkaninfo
 Halo user!
 Anda sedang menjalankan file bash script './tampilkaninfo'
