@@ -1,8 +1,8 @@
 
 [HOME](index.md)
 [ABOUT](README.md)
-[SCRIPTING](#1. scripting)
-[EDITOR LINUX](#2. Editor Linux )
+[SCRIPTING](#1.scripting)
+[EDITOR LINUX](#2.editorlinux)
 [SCRIPTING](#scripting)
 [SCRIPTING](#scripting)
 [SCRIPTING](#scripting)
