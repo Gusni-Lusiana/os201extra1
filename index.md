@@ -131,6 +131,65 @@ Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (gan
 
 # SHA, SHA1, dan SHA1SUM
 
+## Cara mendapatkan SHA-1 file
+Untuk mendapatkan SHA-1 file, lakukan perintah sha1sum. <br>
+SHA-1 akan dicetak terlebih dahulu SHA-1 checksum kemudian nama file.<br>
+Contoh:
+```
+azispro@DESKTOP-F1JL3Q7:~$ ls -F
+Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  Tugas.txt
+
+azispro@DESKTOP-F1JL3Q7:~$ sha1sum Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  Tugas.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Buku.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Jadwal.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Panduan.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
+```
+
+## Cara menulis SHA-1 dari sebuah file
+Untuk menulis SHA-1 dari file  dapat menggunakan standard shell redirection<br>
+Contoh:
+```
+azispro@DESKTOP-F1JL3Q7:~$ sha1sum Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  Tugas.txt > SHA1SUM
+azispro@DESKTOP-F1JL3Q7:~$ cat SHA1SUM
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Buku.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Jadwal.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Panduan.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
+```
+
+## Cara memeriksa SHA-1 file
+Jika file SHA-1 telah disediakan dari download, ini dapat digunakan untuk memeriksa integritas file yang diunduh apakah sempurna atau corrupt <br>
+Untuk memeriksa SHA-1 file, gunakan opsi -c dan berikan file SHA-1 checksum yang sesuai dengan file atau file yang ingin Anda periksa <br>
+Jika file tidak disediakan dengan unduhan, penulis file biasanya akan mempublikasikan intisari pesan SHA-1 dan ini dapat diperiksa secara manual dengan membandingkan output dari sha1sum [file] dengan intisari pesan yang diterbitkan.<br>
+Contoh:
+```
+azispro@DESKTOP-F1JL3Q7:~$ ls -F
+Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  SHA1SUM  Tugas.txt
+azispro@DESKTOP-F1JL3Q7:~$ sha1sum -c SHA1SUM
+Buku.txt: OK
+Jadwal.txt: OK
+Panduan.txt: OK
+Project.txt: OK
+Tugas.txt: OK
+```
+
+Jika verifikasi gagal, mungkin ada perubahan terhadap file atau terjadi corrupt ketika download selesai maka akan muncul FAILED <br>
+Contoh:
+```
+azispro@DESKTOP-F1JL3Q7:~$ ls -F
+Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  SHA1SUM  Tugas.txt
+azispro@DESKTOP-F1JL3Q7:~$ sha1sum -c SHA1SUM
+Buku.txt: FAILED
+Jadwal.txt: FAILED
+Panduan.txt: FAILED
+Project.txt: FAILED
+Tugas.txt: FAILED
+sha1sum: WARNING: 5 computed checksums did NOT match
+```
+
 # GnuPG
 
 ## A. Cara Install GnuPG
