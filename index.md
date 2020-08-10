@@ -7,7 +7,7 @@
 [TAR](#tar)
 [Git](#git)
 [GitHub](#github)
-[SHA](#sha)
+[SHA1](#sha1)
 [GnuPG](#gnupg)
 
 # Scripting
@@ -129,7 +129,7 @@ Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (gan
 
 # GitHub
 
-# SHA, SHA1, dan SHA1SUM
+# SHA1
 
 ## Cara mendapatkan SHA-1 file
 Untuk mendapatkan SHA-1 file, lakukan perintah sha1sum. <br>
