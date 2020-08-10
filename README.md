@@ -1,37 +1,17 @@
 ---
 
-![GitHub Logo](header.jpg)
+![Header](header.jpg)
 
 [HOME](index.md)
 [ABOUT](README.md)
 [TOP](#)
 [BOTTOM](#endofpage)
 
-# About
+# DAFTAR ISI
 
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
-
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
-Blah blah blah...
+## Scripting (index.md#scripting)
 
 
 
-<br>
-<hr>
-<br>
 
-#### ENDOFPAGE
-
-[HOME](index.md)
-[ABOUT](README.md)
-[TOP](#)
-[BOTTOM](#endofpage)
-<br>
 
