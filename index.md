@@ -134,28 +134,28 @@ Silahkan download GnuPG
 
 ## B. INFORMASI GnuPG
 
-* --version
+* Version `--version` <br>
 Perintah --version digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --version
 ```
 
-* --help / -h
+* Help `--help` <br>
 Perintah untuk menampilkan informasi pilihan baris perintah yang paling berguna
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --help
 ```
 
-* --warranty 
+* Warranty `--warranty`  <br>
 Perintah ini digunakan untuk menampilkan informasi tentang jaminan
 Contoh:
 ```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --warranty
 ```
 
-* --dump-options
+* Dump Options `--dump-options` <br>
 Perintah ini digunakan untuk menampilkan daftar semua pilihan perintah yang tersedia
 Contoh:
 ```
@@ -167,7 +167,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
 
 
 * PEMBUATAN KEY BARU
-`--gen-key`
+`--gen-key` <br>
 Perintah --gen-key digunakan untuk membuat keypair primer baru
 Contoh:
 ```
@@ -205,7 +205,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 ```
 
 * PENCABUTAN SERTIFIKASI
-`--gen-revoke`
+`--gen-revoke` <br>
 Perintah --gen-revoke digunakan untuk membuat certificate pembatalan
 Contoh:
 ```
@@ -236,7 +236,7 @@ your machine might store the data and make it available to others!
 ```
 
 * MELIHAT DAFTAR KEY
-`--list-keys`
+`--list-keys` <br>
 Perintah --list-keys digunakan untuk menampilkan daftar key
 Contoh:
 ```
@@ -264,7 +264,7 @@ sub   rsa3072 2020-07-14 [E] [expires: 2022-07-14]
 ```
 
 * EXPORT PUBLIC KEY
-`--export`
+`--export` <br>
 Perintah --export digunakan untuk mengirim public key
 Contoh:
 ```
@@ -313,7 +313,7 @@ p9VNCekOKGinLU4vt+SHk7nLFCE9TPCHj8M=
 ```
 
 * IMPORT PUBLIC KEY
-`--import`
+`--import` <br>
 Perintah --import digunakan untuk memasukan public key
 Contoh: 
 ```
@@ -324,9 +324,12 @@ gpg:               imported: 1
 ```
 
 * ENKRIPSI PESAN
---encrypt
+--encrypt <br>
 Perintah --encrypt digunakan untuk mengenkripsi pesan
+Contoh:
+```
 azispro@DESKTOP-F1JL3Q7:~$ gpg --output enkripsipesan.asc --encrypt --recipient azispro@icloud.com Cara-Mean-GnuPG.txt
+```
 
 
 * DEKRIP PESAN
