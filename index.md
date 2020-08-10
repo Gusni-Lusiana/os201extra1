@@ -8,8 +8,8 @@
 
 # Scripting
 
-1. Scripting Sederhana
-1.1. Perintah dasar linux dan fungsinya
+**1. Scripting Sederhana<br>**
+1.1. Perintah dasar linux dan fungsinya<br>
   a. ls  = melihat isi direktori <br>
   b. mkdir =  menciptakan direktori <br>
   c. cd  = mengubah direktori <br>
