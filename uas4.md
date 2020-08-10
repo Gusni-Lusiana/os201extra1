@@ -10,9 +10,9 @@
 [GitHub  |  ](#github)
 [SHA1  |  ](#sha1)
 [GnuPG  |  ](#gnupg)
-[UAS-3  |  ](#uas3.md)
-[UAS-4  |  ](#uas4.md)
-[UAS-5](#uas5.md)
+[UAS-3  |  ](uas3.md)
+[UAS-4  |  ](uas4.md)
+[UAS-5](uas5.md)
 
 # Petunjuk UAS 4
 
