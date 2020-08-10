@@ -8,28 +8,28 @@
 
 # Scripting
 
-**1. Scripting Sederhana<br>**
-1.1. Perintah dasar linux dan fungsinya<br>
-  a. ls  = melihat isi direktori <br>
-  b. mkdir =  menciptakan direktori <br>
-  c. cd  = mengubah direktori <br>
-  d. rmdir = menghapus direktori <br>
-  e. cat = Menampilkan isi file dan menciptakan file<br>
-  f. cp = Menyalin file<br>
-  g. rm = menghapus file<br>
-  h. mv = mengganti nama file/direktori dan memindahkan file ke direktori lain<br>
-  i. ln = link ke file lain<br>
-  j. lp = Mencetak isi file<br>
-  k. find = mencari file<br>
-  l. chmod = untuk mengubah model akses terhadap file atau direktori<br>
-  m. chgrp = mengubah grup fie<br>
-  n. chown = mengubah kepemilikan dari file<br>
-  o. echo = Menampilkan tulisan yang dibuat setelah perintah echo dan itu tidak disimpan<br>
-  p. sort = Mengurutkan suatu file teks menurut abjad<br>
-  q. cut = Mengambil kolom tertentu dari baris-baris masukannya yang ditentukan pada option–c<br>
-  r.  uniq = Menghilangkan baris – baris berurutan yang mengalami duplikasi<br>
-  s. locate = Mencari suatu file pada direktori lain yang sedang tidak dikunjungi<br>
-  t. finger = Melihat informasi user yang telah ditambahkan oleh perintah chfn<br>
+##1. Scripting Sederhana<br>##
+**1.1. Perintah dasar linux dan fungsinya<br>**
+* a. ls  = melihat isi direktori <br>
+*  b. mkdir =  menciptakan direktori <br>
+*  c. cd  = mengubah direktori <br>
+*  d. rmdir = menghapus direktori <br>
+*  e. cat = Menampilkan isi file dan menciptakan file<br>
+*  f. cp = Menyalin file<br>
+*  g. rm = menghapus file<br>
+*  h. mv = mengganti nama file/direktori dan memindahkan file ke direktori lain<br>
+*  i. ln = link ke file lain<br>
+*  j. lp = Mencetak isi file<br>
+*  k. find = mencari file<br>
+*  l. chmod = untuk mengubah model akses terhadap file atau direktori<br>
+*  m. chgrp = mengubah grup fie<br>
+*  n. chown = mengubah kepemilikan dari file<br>
+*  o. echo = Menampilkan tulisan yang dibuat setelah perintah echo dan itu tidak disimpan<br>
+*  p. sort = Mengurutkan suatu file teks menurut abjad<br>
+*  q. cut = Mengambil kolom tertentu dari baris-baris masukannya yang ditentukan pada option–c<br>
+*  r.  uniq = Menghilangkan baris – baris berurutan yang mengalami duplikasi<br>
+*  s. locate = Mencari suatu file pada direktori lain yang sedang tidak dikunjungi<br>
+*  t. finger = Melihat informasi user yang telah ditambahkan oleh perintah chfn<br>
 
 1.2 Contoh Bash Script
 Ini merupakan contoh penggunaan bash pada mode non-interaktif, yaitu dengan membuat dan menjalankan dua bash script sederhana.<br><br>
