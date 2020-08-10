@@ -9,7 +9,7 @@
 # Scripting
 
 ## 1. Scripting Sederhana<br>
-** 1.1. Perintah dasar linux dan fungsinya<br>**
+**1.1. Perintah dasar linux dan fungsinya<br>**
 * ls  = melihat isi direktori <br>
 * mkdir =  menciptakan direktori <br>
 * cd  = mengubah direktori <br>
@@ -108,5 +108,5 @@ Berikut merupakan beberapa file yang terdapat pada direktori aktif:
 
 Penjelasan untuk script tampilkaninfo:
 <br>
-Variabel $USER menyimpan nama user. $USER merupakan salah satu variabel lingkungan (environment variable) yang telah didefinisikan nilainya oleh sistem, dan perubahan terhadap nilai variabel lingkungan mempengaruhi kerja sistem. Telah dijelaskan sebelumnya, jika variabel $0 digunakan di shell script, maka akan memiliki nilai nama file script tersebut.<br>
+Variabel $USER menyimpan nama user. $USER merupakan salah satu variabel lingkungan (environment variable) yang telah didefinisikan nilainya oleh sistem, dan perubahan terhadap nilai variabel lingkungan mempengaruhi kerja sistem. Telah dijelaskan sebelumnya, jika variabel $0 digunakan di shell script, maka akan memiliki nilai nama file script tersebut.<br><br>
 Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (ganti baris). Sehingga tulisan Hari ini tanggal dan hasil pemanggilan perintah date +"%d %B %Y" (untuk menampilkan tanggal lokal saat script dijalankan dengan format tanggal “tanggal nama bulan tahun”) dapat ditampilkan dalam baris yang sama. Tulisan Anda sedang berada di lokasi dengan hasil pemanggilan perintah pwd juga dapat ditampilkan pada baris yang sama dengan meniadakan newline pada akhir output pemanggilan echo.
