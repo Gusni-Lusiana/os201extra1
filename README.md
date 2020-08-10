@@ -3,7 +3,7 @@
 
 # DAFTAR ISI
 
-[**1.Scripting**](index.md#scripting) <br>
+[**1. Scripting**](index.md#scripting) <br>
 [**2.Editor-Linux**](index.md#editorlinux)  <br>
 [**3.Gcc**](index.md#gcc) <br>
 [**4.MakeFile**](index.md#makefile) <br>
