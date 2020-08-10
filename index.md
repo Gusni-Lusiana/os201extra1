@@ -134,12 +134,12 @@ Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (gan
 
 # GnuPG
 
-## A. CARA INSTALL GnuPG
+## A. Cara Install GnuPG
 
 Silahkan download GnuPG
 [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html)
 
-## B. INFORMASI GnuPG
+## B. Informasi GnuPG
 
 * Version `--version` <br>
 Perintah `--version` digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)<br>
@@ -170,7 +170,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
 ```
 
 
-## C. PERINTAH MENJALANKAN GnuPG
+## C. Perintah Menjalankan GnuPG
 
 
 * PEMBUATAN KEY BARU
