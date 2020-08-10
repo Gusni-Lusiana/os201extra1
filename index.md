@@ -1,10 +1,16 @@
 
 [HOME](index.md)
 [ABOUT](README.md)
-[TOP](#)
+[SCRIPTING](#1. scripting)
+[EDITOR LINUX](#2. Editor Linux )
+[SCRIPTING](#scripting)
+[SCRIPTING](#scripting)
+[SCRIPTING](#scripting)
+[SCRIPTING](#scripting)
+[SCRIPTING](#scripting)
 [SCRIPTING](#scripting)
 
-# Scripting
+# 1. Scripting
 
 ## 1. Scripting Sederhana<br>
 **1.1. Perintah dasar linux dan fungsinya<br>**
