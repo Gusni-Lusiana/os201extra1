@@ -28,37 +28,37 @@
 6. Harap mencantumkan (akunGitHub), pihak yang melakukan pelengkapan/ memodifikasi.<br>
 7. Jika diinginkan, silakan mengubah TOTAL isi program/ fungsi yang telah disiapkan.<br>
 6. Yang harus tetap:<br>
-== a. isi "struct usrinfo" dan "struct myshare" dalam "share.h" tidak boleh diubah.<br>
-== b. nama berkas untuk "SharedMemory" harus "SharedMemoryFile.bin".<br>
-== c. nama berkas masing-masing anggota harus p00.c, p01.c, dst.<br>
-== d. kerjakan dalam folder "TUGAS/", lalu buat berkas "tar" bernama "0003-TUGAS.tar.bz2" (sebelum dienkripsi).<br>
-== e. berkas "0003-TUGAS.tar.bz2" HARUS dienkripsi dengan key dari "operatingsystems@vlsm.org".<br>
+a. isi "struct usrinfo" dan "struct myshare" dalam "share.h" tidak boleh diubah.<br>
+b. nama berkas untuk "SharedMemory" harus "SharedMemoryFile.bin".<br>
+c. nama berkas masing-masing anggota harus p00.c, p01.c, dst.<br>
+d. kerjakan dalam folder "TUGAS/", lalu buat berkas "tar" bernama "0003-TUGAS.tar.bz2" (sebelum dienkripsi).<br>
+e. berkas "0003-TUGAS.tar.bz2" HARUS dienkripsi dengan key dari "operatingsystems@vlsm.org".<br>
 7. Yang perlu diubah ialah nilai "delay":<br>
-== a. Nilai default "delay" berturut-turut: (p00.c: 3), (p01.c: 2), (p02.c: 1), (p03.c: 5), (p04.c: 4).<br>
-== b. Berapa pun nilai delay, program tidak boleh "hang".<br>
-== c. Bagaimana pun urutan delay, "p00" harus selalu exit paling akhir.<br>
+a. Nilai default "delay" berturut-turut: (p00.c: 3), (p01.c: 2), (p02.c: 1), (p03.c: 5), (p04.c: 4).<br>
+b. Berapa pun nilai delay, program tidak boleh "hang".<br>
+c. Bagaimana pun urutan delay, "p00" harus selalu exit paling akhir.<br>
 8. Ganti isi variabel "akunGitHub" dengan nama akun GitHub masing-masing anggota kelompok.<br>
 9. Akses "SharedMemory" secara MUTEX.  Gunakan semafor "mutex".<br>
-== a. Setiap kali mengakses "mutex", "mutexctr++".<br>
-== b. Setiap kali mengakses "mutex", untuk "usrinfo" dari akunGitHub tersebut, "stamp++"<br>
-== c. Pengecualian, "state" (OPEN/CLOSED/0) diakses tanpa memeriksa semafor "mutex".<br>
-== d. Pengecualian, inisialisasi semafor "mutex" TENTUNYA tanpa memeriksa semafor "mutex".<br>
-== e. Inisialisasi semafor (SharedMemory) dengan fungsi "sem_init (&(mymap->mutex), 1, MUTEX)".<br>
+a. Setiap kali mengakses "mutex", "mutexctr++".<br>
+b. Setiap kali mengakses "mutex", untuk "usrinfo" dari akunGitHub tersebut, "stamp++"<br>
+c. Pengecualian, "state" (OPEN/CLOSED/0) diakses tanpa memeriksa semafor "mutex".<br>
+d. Pengecualian, inisialisasi semafor "mutex" TENTUNYA tanpa memeriksa semafor "mutex".<br>
+e. Inisialisasi semafor (SharedMemory) dengan fungsi "sem_init (&(mymap->mutex), 1, MUTEX)".<br>
 10. Proses "p00":<br>
-== a. Saat inisialisasi, "state=0";<br>
-== b. Hanya "p00" yang dapat menset "state" menjadi "OPEN" atau "CLOSED".<br>
-== c. Tanpa argumen, proses "p00" yang memanggil "p01", "p02", dst. <br>
-== d. Tanpa argumen, proses "p00" selalu exit paling akhir dengan "state=CLOSED".<br>
-== e. Dengan sembarang argumen, proses "p00" membuat "state=OPEN", lalu langsung EXIT.<br>
+a. Saat inisialisasi, "state=0";<br>
+b. Hanya "p00" yang dapat menset "state" menjadi "OPEN" atau "CLOSED".<br>
+c. Tanpa argumen, proses "p00" yang memanggil "p01", "p02", dst. <br>
+d. Tanpa argumen, proses "p00" selalu exit paling akhir dengan "state=CLOSED".<br>
+e. Dengan sembarang argumen, proses "p00" membuat "state=OPEN", lalu langsung EXIT.<br>
 11. Proses "p01", "p01", "p02", ...<br>
-== a. Tanpa berkas SharedMemory, "p01", "p02", dst. langsung exit.<br>
-== b. Jika "state==CLOSED", "p01", "p02", dst. langsung exit.<br>
-== c. Jika "state==OPEN",   "p01", "p02", dst. dapat mengakses SharedMemory.<br>
+a. Tanpa berkas SharedMemory, "p01", "p02", dst. langsung exit.<br>
+b. Jika "state==CLOSED", "p01", "p02", dst. langsung exit.<br>
+c. Jika "state==OPEN",   "p01", "p02", dst. dapat mengakses SharedMemory.<br>
 12. Berkas "K00-TEST-KIT.txt"<br>
-== a. Setiap anggota melakukan test terpisah.<br>
-== b. Gunakan berkas "K00-TEST-KIT.txt" sebagai patokan testing.<br>
+a. Setiap anggota melakukan test terpisah.<br>
+b. Gunakan berkas "K00-TEST-KIT.txt" sebagai patokan testing.<br>
 13. Berkas "K01-TEST-RESULT.txt"<br>
-== a. Masukkan hasil test ke berkas "K01-TEST-RESULT.txt"<br>
+a. Masukkan hasil test ke berkas "K01-TEST-RESULT.txt"<br>
 14. Info Tambahan
 ```
 #define AKUNSIZE     30    // Jumlah karakter dalam string "akunGitHub" (minus 1).
