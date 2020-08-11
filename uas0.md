@@ -170,7 +170,7 @@ gpg: Signature made Fri 29 May 2020 08:31:52 PM WIB using RSA key ID 4762F757
 gpg: Good signature from "Cicak Bin Kadal (CBK) <cbkadal@vlsm.org>" [ultimate]
 $ 
 ```
-== h. Silakan verifikasi isi berkas: "coba.txt"
+* h. Silakan verifikasi isi berkas: "coba.txt"
 
 ## 6. PERHATIAN:
 
@@ -195,38 +195,38 @@ $
 * Prasyarat mengikuti UAS ialah mencapai "PAS0".<br>
  Batas waktu: 8 Juni 2020 jam 12:59.<br>
  Jika "H"="0", maka nilai UAS=0.<br>
-tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
-diberi kesempatan melengkapi PAS0.<br>
+== tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
+== diberi kesempatan melengkapi PAS0.<br>
  Jika belum mencapai PAS0, maka:<br>
-nilai UAS=6.<br>
- tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
-diberi kesempatan melengkapi PAS0.<br>
+== nilai UAS=6.<br>
+== tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
+== diberi kesempatan melengkapi PAS0.<br>
  Jika mencapai PAS0, maka;<br>
-nilai UAS=12.<br>
- diperbolehkan untuk mengikuti "UAS TAHAP I".<br>
+== nilai UAS=12.<br>
+== diperbolehkan untuk mengikuti "UAS TAHAP I".<br>
 * Bagi yang sudah "PAS0", silakan konfirmasi dengan berkas (kosong):<br>
-== "UAS-BERSAMA/akunGitHub/0000-PAS0.txt".<br>
-== "PAS0" tidak menjamin bahwa telah betul mengisi/membuat: P0, P1, dan P2.<br>
-== Jangan lupa menghapus ".dummy", ya!<br>
+"UAS-BERSAMA/akunGitHub/0000-PAS0.txt".<br>
+"PAS0" tidak menjamin bahwa telah betul mengisi/membuat: P0, P1, dan P2.<br>
+Jangan lupa menghapus ".dummy", ya!<br>
 * UAS TAHAP I KELAS A, B, C, M<br>
 Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.<br>
 Tugas akan diumumkan melalui WhatsApp Group "os201".<br>
 Batas waktu: 9 Juni 2020 jam 13:01.<br>
 Jika melewati batas waktu:<br>
-== == Nilai UAS=12.<br>
-== == Diberi kesempatan menyelesaikan/merampungkan tugas UAS TAHAP I.<br>
-== == Tidak diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
+== Nilai UAS=12.<br>
+== Diberi kesempatan menyelesaikan/merampungkan tugas UAS TAHAP I.<br>
+== Tidak diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
 Jika lulus:<br>
-== == Nilai UAS=17.5.<br>
-== == Rincian nilai dan tugas akan diumumkan.<br>
-== == Diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
+== Nilai UAS=17.5.<br>
+== Rincian nilai dan tugas akan diumumkan.<br>
+== Diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
 * UAS TAHAPAN SELANJUTNYA.<br>
 Akan diumumkan diberkas lain (tunggu pengumuman lanjut).<br>
 * NILAI SIAK<br>
 Batas waktu: 7 Agustus 2020 jam 15:59.<br>
 
 # BAGIAN E: Masukan Umpan Balik (Feedback)
-========================================
+
 Mengingat ini baru pertama kali, silakan memberikan masukan (feedback).<br>
 Untuk itu, gunakan berkas "UAS-BERSAMA/akunGitHub/0000-PAS0.txt" di atas.<br>
 Hal-hal yang ingin diketahui (namun tidak terbatas pada):<br>
@@ -245,21 +245,21 @@ RMS
 
 ## Berkas ini sudah relatif stabil hingga titik PAS0 
 
-* +URL: https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=19137
-* +LOG: https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201
++URL: https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=19137
++LOG: https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201
  
  1. "akunGitHub" -- Nama akun yang digunakan untuk mengakses GitHub.com.
-* PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
++== PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
  
-* g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/.dummy".
-* g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".
-<br>
-* Pengumuman Tugas:  8 Juni 2020 (sekitar) jam 13:00.
-* Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.
-* Tugas akan diumumkan melalui WhatsApp Group "os201".
+-== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/.dummy".
++== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".
 
-* Rincian nilai dan tugas akan diumumkan.
+-== Pengumuman Tugas:  8 Juni 2020 (sekitar) jam 13:00.
++== Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.
++== Tugas akan diumumkan melalui WhatsApp Group "os201".
 
-* g. UAS TAHAPAN SELANJUTNYA.
-* TBA.
-* Akan diumumkan diberkas lain (tunggu pengumuman lanjut).
++== == Rincian nilai dan tugas akan diumumkan.
+
+ g. UAS TAHAPAN SELANJUTNYA.
+-== TBA.
++== Akan diumumkan diberkas lain (tunggu pengumuman lanjut).
