@@ -250,16 +250,16 @@ RMS
  
  1. "akunGitHub" -- Nama akun yang digunakan untuk mengakses GitHub.com.<br>
 +== PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".<br>
- <br><br>
+ <br>
 -== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/.dummy".<br>
 +== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>
-<br><br>
+<br>
 -== Pengumuman Tugas:  8 Juni 2020 (sekitar) jam 13:00.<br>
 +== Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.<br>
 +== Tugas akan diumumkan melalui WhatsApp Group "os201".<br>
-<br><br>
+<br>>
 +== == Rincian nilai dan tugas akan diumumkan.<br>
-<br><br>
+<br>
  g. UAS TAHAPAN SELANJUTNYA.<br>
 -== TBA.<br>
 +== Akan diumumkan diberkas lain (tunggu pengumuman lanjut).
