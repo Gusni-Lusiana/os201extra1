@@ -59,31 +59,31 @@ https://github.com/UI-FASILKOM-OS/os201/.<br>
 * d. jika ragu, silakan menghapus total sistem gpg yang lama.<br>
 * e. Dapat membuat tanda-tangan digital, enkripsi/dekripsi.<br>
 * f. Meletakkan text "public key" (armor) ke dalam berkas: <br>
-== == "UAS-PRIBADI/0000-mypub.txt"<br>
-== == MOHON JANGAN MELETAKKAN "public key" tersebut di "UAS-BERSAMA/"!<br>
+"UAS-PRIBADI/0000-mypub.txt"<br>
+MOHON JANGAN MELETAKKAN "public key" tersebut di "UAS-BERSAMA/"!<br>
 * g. Mengimport "public key" yang tersedia di:<br>
  "UAS-BERSAMA/0003-OSPUB.txt" (67DF6DDE)<br>
   Recipient: Operating Systems (OS) <operatingsystems@vlsm.org><br>
 
 ## 3. Memiliki akses ke sistem linux (contoh badak):
-== a. Memahami cara menggunakan CLI berbasis "bash".<br>
-== b. Memahami cara GSGS.<br>
-== c. Dapat membuat/memodifikasi script bash, awk, sed, dst.<br>
-== d. Dapat membuat/memodifikasi program berbasis C.<br>
-== e. Memahami konsep "C Standard Library" <br>
-== == Contoh: printf() ---> #include <stdio.h>.<br>
-== f. Dapat membuat berkas "Makefile" sederhana.<br>
-== g. Dapat membuka/membuat arsip "tar" dengan kompresi "bzip2".<br>
-== h. Telah mencoba serta memahami SELURUH demo Week00-Week10.<br>
+* Memahami cara menggunakan CLI berbasis "bash".<br>
+* Memahami cara GSGS.<br>
+* Dapat membuat/memodifikasi script bash, awk, sed, dst.<br>
+* Dapat membuat/memodifikasi program berbasis C.<br>
+* Memahami konsep "C Standard Library" <br>
+Contoh: printf() ---> #include <stdio.h>.<br>
+* Dapat membuat berkas "Makefile" sederhana.<br>
+* Dapat membuka/membuat arsip "tar" dengan kompresi "bzip2".<br>
+* Telah mencoba serta memahami SELURUH demo Week00-Week10.<br>
 
 ## 4. SELALU setelah "commit", menambahkan baris "OS201 akunGitHub" ke log.
 
 ## 5. Jika ada yang kurang/tidak jelas, silakan SEGERA menanyakan di SCELE.
-== a. Harap membuka post (thread) baru!<br>
-== b. Posting SCELE biasanya akan dibalas dalam kurun waktu 1-2 hari kerja.<br>
+* Harap membuka post (thread) baru!<br>
+* Posting SCELE biasanya akan dibalas dalam kurun waktu 1-2 hari kerja.<br>
 
 ## 6. Secara berkala memeriksa log di:
-== https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201/
+https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201/
 
 
 # BAGIAN C: PERSIAPAN UAS
@@ -188,42 +188,42 @@ $
 
 # BAGIAN D: JADWAL/TAHAPAN/NILAI UAS
 
-a. Tidak seperti biasa, nilai maksimum UAS ialah (30/30). <br>
-b. Untuk tidak mengubah template SIAK, nilai akan dibagi 5 (soal 6-10).<br>
-c. Secara berkala, silakan memeriksa log:<br>
-== https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201/<br>
-d. Prasyarat mengikuti UAS ialah mencapai "PAS0".<br>
-== Batas waktu: 8 Juni 2020 jam 12:59.<br>
-== Jika "H"="0", maka nilai UAS=0.<br>
-== == tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
-== == diberi kesempatan melengkapi PAS0.<br>
-== Jika belum mencapai PAS0, maka:<br>
-== == nilai UAS=6.<br>
-== == tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
-== == diberi kesempatan melengkapi PAS0.<br>
-== Jika mencapai PAS0, maka;<br>
-== == nilai UAS=12.<br>
-== == diperbolehkan untuk mengikuti "UAS TAHAP I".<br>
-e. Bagi yang sudah "PAS0", silakan konfirmasi dengan berkas (kosong):<br>
+* Tidak seperti biasa, nilai maksimum UAS ialah (30/30). <br>
+* Untuk tidak mengubah template SIAK, nilai akan dibagi 5 (soal 6-10).<br>
+* Secara berkala, silakan memeriksa log:<br>
+ https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201/<br>
+* Prasyarat mengikuti UAS ialah mencapai "PAS0".<br>
+ Batas waktu: 8 Juni 2020 jam 12:59.<br>
+ Jika "H"="0", maka nilai UAS=0.<br>
+tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
+diberi kesempatan melengkapi PAS0.<br>
+ Jika belum mencapai PAS0, maka:<br>
+nilai UAS=6.<br>
+ tidak diperkenankan mengikuti UAS/akan diabaikan.<br>
+diberi kesempatan melengkapi PAS0.<br>
+ Jika mencapai PAS0, maka;<br>
+nilai UAS=12.<br>
+ diperbolehkan untuk mengikuti "UAS TAHAP I".<br>
+* Bagi yang sudah "PAS0", silakan konfirmasi dengan berkas (kosong):<br>
 == "UAS-BERSAMA/akunGitHub/0000-PAS0.txt".<br>
 == "PAS0" tidak menjamin bahwa telah betul mengisi/membuat: P0, P1, dan P2.<br>
 == Jangan lupa menghapus ".dummy", ya!<br>
-f. UAS TAHAP I KELAS A, B, C, M<br>
-== Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.<br>
-== Tugas akan diumumkan melalui WhatsApp Group "os201".<br>
-== Batas waktu: 9 Juni 2020 jam 13:01.<br>
-== Jika melewati batas waktu:<br>
+* UAS TAHAP I KELAS A, B, C, M<br>
+Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.<br>
+Tugas akan diumumkan melalui WhatsApp Group "os201".<br>
+Batas waktu: 9 Juni 2020 jam 13:01.<br>
+Jika melewati batas waktu:<br>
 == == Nilai UAS=12.<br>
 == == Diberi kesempatan menyelesaikan/merampungkan tugas UAS TAHAP I.<br>
 == == Tidak diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
-== Jika lulus:<br>
+Jika lulus:<br>
 == == Nilai UAS=17.5.<br>
 == == Rincian nilai dan tugas akan diumumkan.<br>
 == == Diberi kesempatan melanjutkan ke tugas UAS TAHAP II.<br>
-g. UAS TAHAPAN SELANJUTNYA.<br>
-== Akan diumumkan diberkas lain (tunggu pengumuman lanjut).<br>
-h. NILAI SIAK<br>
-== Batas waktu: 7 Agustus 2020 jam 15:59.<br>
+* UAS TAHAPAN SELANJUTNYA.<br>
+Akan diumumkan diberkas lain (tunggu pengumuman lanjut).<br>
+* NILAI SIAK<br>
+Batas waktu: 7 Agustus 2020 jam 15:59.<br>
 
 # BAGIAN E: Masukan Umpan Balik (Feedback)
 ========================================
@@ -253,7 +253,7 @@ RMS
  
 * g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/.dummy".
 * g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".
-
+<br>
 * Pengumuman Tugas:  8 Juni 2020 (sekitar) jam 13:00.
 * Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.
 * Tugas akan diumumkan melalui WhatsApp Group "os201".
