@@ -12,9 +12,11 @@
 [GitHub  |  ](index.md#github)
 [SHA1  |  ](index.md#sha1)
 [GnuPG  |  ](index.md#gnupg)
+[UAS-0  |  ](uas0.md)
 [UAS-3  |  ](uas3.md)
 [UAS-4  |  ](uas4.md)
 [UAS-5](uas5.md)
+
 
 # Petunjuk UAS 4
 
