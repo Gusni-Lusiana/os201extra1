@@ -19,7 +19,7 @@
 
 # BAGIAN A: ISTILAH
 
-###### 1. "akunGitHub" 
+### 1. "akunGitHub" 
 Nama akun yang digunakan untuk mengakses GitHub.com. <br>
 * PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
 
