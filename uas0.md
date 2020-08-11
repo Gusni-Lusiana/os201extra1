@@ -20,16 +20,16 @@
 # BAGIAN A: ISTILAH
 
 ## 1. "akunGitHub" 
--- Nama akun yang digunakan untuk mengakses GitHub.com.
-== PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
+Nama akun yang digunakan untuk mengakses GitHub.com. <br>
+* PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
 
 ## 2. "PRIBADI"    
--- Proyek OS201 pribadi, yaitu 
-== == https://github.com/akunGitHun/os201/
-== a. "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".
-== b. "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".
-== c. "WEB-PRIBADI/" -- situs GitHub page pribadi 
-== == https://akunGitHub.github.io/os201/.
+Proyek OS201 pribadi, yaitu  <br>
+   https://github.com/akunGitHun/os201/
+a. "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".
+b. "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".
+c. "WEB-PRIBADI/" -- situs GitHub page pribadi 
+   https://akunGitHub.github.io/os201/.
 
 ## 3. "BERSAMA" 
 -- Proyek OS201 bersama, yaitu 
