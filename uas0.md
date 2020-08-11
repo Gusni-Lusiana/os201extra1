@@ -136,11 +136,11 @@ Script done on Thu 28 May 2020 04:54:59 PM WIB
 
 ## 5. Berkas "0002-mytest.txt.asc"
 
-== a. menandatangani dan mengenkripsi (armor) berkas: "0001-mytest.txt".
-== b. CONTOH, pengirim dan penanda-tangan: cbkadal@vlsm.org (JANGAN LUPA GANTI)
-== c. penerima berkas (recipient): operatingsystems@vlsm.org
-== d. Keluaran: "0002-mytest.txt.asc"
-== e. List keys
+* menandatangani dan mengenkripsi (armor) berkas: "0001-mytest.txt".
+* CONTOH, pengirim dan penanda-tangan: cbkadal@vlsm.org (JANGAN LUPA GANTI)
+* penerima berkas (recipient): operatingsystems@vlsm.org
+* Keluaran: "0002-mytest.txt.asc"
+* List keys
 ```
 $ gpg2 --list-keys
 /home/demo/.gnupg/pubring.gpg
