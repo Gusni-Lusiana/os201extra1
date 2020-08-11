@@ -31,31 +31,31 @@
 a. isi "struct usrinfo" dan "struct myshare" dalam "share.h" tidak boleh diubah.<br>
 b. nama berkas untuk "SharedMemory" harus "SharedMemoryFile.bin".<br>
 c. nama berkas masing-masing anggota harus p00.c, p01.c, dst.<br>
-7. Yang perlu diubah ialah nilai "delay":
+7. Yang perlu diubah ialah nilai "delay":<br>
 a. Nilai default "delay" berturut-turut: (p00.c: 3), (p01.c: 1), (p02.c: 1), (p03.c: 2), (p04.c: 1), (p05.c: 8).<br>
 b. Berapa pun nilai delay, program tidak boleh "hang".<br>
 c. Bagaimana pun urutan delay, "p00" harus selalu exit paling akhir.<br>
 8. Ganti isi variabel "akunGitHub" dengan nama akun GitHub masing-masing.
-9. Akses "SharedMemory" secara MUTEX.  Gunakan semafor "mutex".
+9. Akses "SharedMemory" secara MUTEX.  Gunakan semafor "mutex".<br>
 a. Setiap kali mengakses "mutex", "mutexctr++".<br>
 b. Pengecualian, state (OPEN/CLOSED/0) diakses tanpa memeriksa semafor "mutex".<br>
 c. Pengecualian, inisialisasi semafor "mutex" tanpa memeriksa semafor "mutex".<br>
 d. Inisialisasi semafor (SharedMemory) dengan fungsi "sem_init (&(mymap->mutex), 1, MUTEX)".<br>
-10. Proses "p00":
+10. Proses "p00":<br>
 a. Saat inisialisasi, state=0;<br>
 b. Hanya "p00" yang dapat menset state menjadi "OPEN" atau "CLOSED".<br>
 c. Tanpa argumen, proses "p00" akan memanggil "p01", "p02", dst. <br>
 d. Tanpa argumen, proses "p00" selalu exit paling akhir, serta merubah state=CLOSED.<br>
 e. Dengan sembarang argumen, proses "p00" membuat state=OPEN, lalu langsung exit.<br>
 f. Kecuali state=OPEN, "p00" akan reset ShareMemory.<br>
-11. Proses "p01", "p01", "p02", ...
+11. Proses "p01", "p01", "p02", ...<br>
 a. Tanpa berkas  SharedMemory, p01, p02, dst. langsung exit.<br>
 b. Jika state=CLOSED, p01, p02, dst. langsung exit.<br>
 c. Jika state=OPEN, p01, p02, dst. dapat mengakses SharedMemory.<br>
-12. Berkas "K00-TEST-KIT.txt"
+12. Berkas "K00-TEST-KIT.txt"<br>
 a. Setiap anggota melakukan test terpisah<br>
 b. Gunakan berkas "K00-TEST-KIT.txt" sebagai patokan testing.<br>
-13. Berkas "K04-TEST-RESULT.txt"
+13. Berkas "K04-TEST-RESULT.txt"<br>
 a. akunGH0[Boss is Waiting] dalam "initBoss()", p00 akan menunggu hingga semua "NoBosses" dalam keadaan siap.<br>
 b. akunGH0[All NoBosses are ready!] p00 selesai menunggu.<br>
 c. akunGH1[Good Bye initNoBoss()!] p01, p02, ... selesai menjalankan "initNoBoss()".<br>
