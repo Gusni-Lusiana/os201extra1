@@ -154,12 +154,12 @@ uid       [ultimate] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 ```
 
-* f. "-o" = outfile; "-e" = encrypt; "-a" = armor; "-r" = recipient "-s" = sign
+* "-o" = outfile; "-e" = encrypt; "-a" = armor; "-r" = recipient "-s" = sign
 ```
 $ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
 ```
 
-* g. "-d" = decrypt
+* "-d" = decrypt
 ```
 $ gpg2 -o coba.txt -d 0002-mytest.txt.asc 
 gpg: encrypted with 4096-bit RSA key, ID 44170902, created 2020-02-13
@@ -170,7 +170,7 @@ gpg: Signature made Fri 29 May 2020 08:31:52 PM WIB using RSA key ID 4762F757
 gpg: Good signature from "Cicak Bin Kadal (CBK) <cbkadal@vlsm.org>" [ultimate]
 $ 
 ```
-* h. Silakan verifikasi isi berkas: "coba.txt"
+* Silakan verifikasi isi berkas: "coba.txt"
 
 ## 6. PERHATIAN:
 
