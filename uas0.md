@@ -53,15 +53,15 @@ https://github.com/UI-FASILKOM-OS/os201/.<br>
    https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=16744<br>
 
 ## 2. GNUPG:
-* a. memiliki gnupg private/public key yang masih berlaku.<br>
-* b. silakan menggunakan keys yang pernah dibuat sebelumnya.<br>
-* c. jika yang lama hilang, silakan membuat pasangan keys baru.<br>
-* d. jika ragu, silakan menghapus total sistem gpg yang lama.<br>
-* e. Dapat membuat tanda-tangan digital, enkripsi/dekripsi.<br>
-* f. Meletakkan text "public key" (armor) ke dalam berkas: <br>
+* memiliki gnupg private/public key yang masih berlaku.<br>
+* silakan menggunakan keys yang pernah dibuat sebelumnya.<br>
+* jika yang lama hilang, silakan membuat pasangan keys baru.<br>
+* jika ragu, silakan menghapus total sistem gpg yang lama.<br>
+* Dapat membuat tanda-tangan digital, enkripsi/dekripsi.<br>
+* Meletakkan text "public key" (armor) ke dalam berkas: <br>
 "UAS-PRIBADI/0000-mypub.txt"<br>
 MOHON JANGAN MELETAKKAN "public key" tersebut di "UAS-BERSAMA/"!<br>
-* g. Mengimport "public key" yang tersedia di:<br>
+* Mengimport "public key" yang tersedia di:<br>
  "UAS-BERSAMA/0003-OSPUB.txt" (67DF6DDE)<br>
   Recipient: Operating Systems (OS) <operatingsystems@vlsm.org><br>
 
@@ -154,12 +154,12 @@ uid       [ultimate] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 ```
 
-== f. "-o" = outfile; "-e" = encrypt; "-a" = armor; "-r" = recipient "-s" = sign
+* f. "-o" = outfile; "-e" = encrypt; "-a" = armor; "-r" = recipient "-s" = sign
 ```
 $ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
 ```
 
-== g. "-d" = decrypt
+* g. "-d" = decrypt
 ```
 $ gpg2 -o coba.txt -d 0002-mytest.txt.asc 
 gpg: encrypted with 4096-bit RSA key, ID 44170902, created 2020-02-13
@@ -173,18 +173,18 @@ $
 == h. Silakan verifikasi isi berkas: "coba.txt"
 
 ## 6. PERHATIAN:
-```
-== a. Sistem "badak" agak ketinggalan zaman.
-== b. Pada kebanyakan sistem lain, "gpg2" telah berubah menjadi "gpg".
-== c. Keluaran "gpg2 --list-keys" akan bervariasi dari sistem ke sistem.
-```
+
+* a. Sistem "badak" agak ketinggalan zaman.
+* b. Pada kebanyakan sistem lain, "gpg2" telah berubah menjadi "gpg".
+* c. Keluaran "gpg2 --list-keys" akan bervariasi dari sistem ke sistem.
+
 
 ## 7. Letakan berkas di:
-```
-== a. "UAS-PRIBADI/0001-mytest.txt"
-== b. "UAS-PRIBADI/0002-mytest.txt.asc"
-== c. "UAS-PRIBADI/.dummy" (HAPUS)
-```
+
+* "UAS-PRIBADI/0001-mytest.txt"
+* "UAS-PRIBADI/0002-mytest.txt.asc"
+* "UAS-PRIBADI/.dummy" (HAPUS)
+
 
 # BAGIAN D: JADWAL/TAHAPAN/NILAI UAS
 
