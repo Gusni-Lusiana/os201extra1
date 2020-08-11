@@ -27,43 +27,43 @@
 5. Tugas kelompok ialah melengkapi/ memodifikasi berkas "share.c" dan "share.h" bersama-sama.
 6. Harap mencantumkan (akunGitHub), pihak yang melakukan pelengkapan/ memodifikasi.
 7. Jika diinginkan, silakan mengubah TOTAL isi program/ fungsi yang telah disiapkan.
-6. Yang harus tetap:
-a. isi "struct usrinfo" dan "struct myshare" dalam "share.h" tidak boleh diubah.
-b. nama berkas untuk "SharedMemory" harus "SharedMemoryFile.bin".
-c. nama berkas masing-masing anggota harus p00.c, p01.c, dst.
+6. Yang harus tetap: <br>
+a. isi "struct usrinfo" dan "struct myshare" dalam "share.h" tidak boleh diubah.<br>
+b. nama berkas untuk "SharedMemory" harus "SharedMemoryFile.bin".<br>
+c. nama berkas masing-masing anggota harus p00.c, p01.c, dst.<br>
 7. Yang perlu diubah ialah nilai "delay":
-a. Nilai default "delay" berturut-turut: (p00.c: 3), (p01.c: 1), (p02.c: 1), (p03.c: 2), (p04.c: 1), (p05.c: 8).
-b. Berapa pun nilai delay, program tidak boleh "hang".
-c. Bagaimana pun urutan delay, "p00" harus selalu exit paling akhir.
+a. Nilai default "delay" berturut-turut: (p00.c: 3), (p01.c: 1), (p02.c: 1), (p03.c: 2), (p04.c: 1), (p05.c: 8).<br>
+b. Berapa pun nilai delay, program tidak boleh "hang".<br>
+c. Bagaimana pun urutan delay, "p00" harus selalu exit paling akhir.<br>
 8. Ganti isi variabel "akunGitHub" dengan nama akun GitHub masing-masing.
 9. Akses "SharedMemory" secara MUTEX.  Gunakan semafor "mutex".
-a. Setiap kali mengakses "mutex", "mutexctr++".
-b. Pengecualian, state (OPEN/CLOSED/0) diakses tanpa memeriksa semafor "mutex".
-c. Pengecualian, inisialisasi semafor "mutex" tanpa memeriksa semafor "mutex".
-d. Inisialisasi semafor (SharedMemory) dengan fungsi "sem_init (&(mymap->mutex), 1, MUTEX)".
+a. Setiap kali mengakses "mutex", "mutexctr++".<br>
+b. Pengecualian, state (OPEN/CLOSED/0) diakses tanpa memeriksa semafor "mutex".<br>
+c. Pengecualian, inisialisasi semafor "mutex" tanpa memeriksa semafor "mutex".<br>
+d. Inisialisasi semafor (SharedMemory) dengan fungsi "sem_init (&(mymap->mutex), 1, MUTEX)".<br>
 10. Proses "p00":
-a. Saat inisialisasi, state=0;
-b. Hanya "p00" yang dapat menset state menjadi "OPEN" atau "CLOSED".
-c. Tanpa argumen, proses "p00" akan memanggil "p01", "p02", dst. 
-d. Tanpa argumen, proses "p00" selalu exit paling akhir, serta merubah state=CLOSED.
-e. Dengan sembarang argumen, proses "p00" membuat state=OPEN, lalu langsung exit.
-f. Kecuali state=OPEN, "p00" akan reset ShareMemory.
+a. Saat inisialisasi, state=0;<br>
+b. Hanya "p00" yang dapat menset state menjadi "OPEN" atau "CLOSED".<br>
+c. Tanpa argumen, proses "p00" akan memanggil "p01", "p02", dst. <br>
+d. Tanpa argumen, proses "p00" selalu exit paling akhir, serta merubah state=CLOSED.<br>
+e. Dengan sembarang argumen, proses "p00" membuat state=OPEN, lalu langsung exit.<br>
+f. Kecuali state=OPEN, "p00" akan reset ShareMemory.<br>
 11. Proses "p01", "p01", "p02", ...
-a. Tanpa berkas  SharedMemory, p01, p02, dst. langsung exit.
-b. Jika state=CLOSED, p01, p02, dst. langsung exit.
-c. Jika state=OPEN, p01, p02, dst. dapat mengakses SharedMemory.
+a. Tanpa berkas  SharedMemory, p01, p02, dst. langsung exit.<br>
+b. Jika state=CLOSED, p01, p02, dst. langsung exit.<br>
+c. Jika state=OPEN, p01, p02, dst. dapat mengakses SharedMemory.<br>
 12. Berkas "K00-TEST-KIT.txt"
-a. Setiap anggota melakukan test terpisah
-b. Gunakan berkas "K00-TEST-KIT.txt" sebagai patokan testing.
+a. Setiap anggota melakukan test terpisah<br>
+b. Gunakan berkas "K00-TEST-KIT.txt" sebagai patokan testing.<br>
 13. Berkas "K04-TEST-RESULT.txt"
-a. akunGH0[Boss is Waiting] dalam "initBoss()", p00 akan menunggu hingga semua "NoBosses" dalam keadaan siap.
-b. akunGH0[All NoBosses are ready!] p00 selesai menunggu.
-c. akunGH1[Good Bye initNoBoss()!] p01, p02, ... selesai menjalankan "initNoBoss()".
-d. akunGH1[Yes, I am ready!] Siapa pun (p00, p01, p02, ...) harus menunggu isyarat dari p00.
-== Isyarat p00 baru diberikan setelah  "All NoBosses are ready!" (butir 13.b di atas).
-e. Masukkan hasil test ke berkas "K04-TEST-RESULT.txt"
-f. Jika DEADLINE masih jauh, silakan mengembangkan "doBoss()" dan "doNotBoss()".
-== Tentunya, sesuai dengan kreatifitas masing-masing.
+a. akunGH0[Boss is Waiting] dalam "initBoss()", p00 akan menunggu hingga semua "NoBosses" dalam keadaan siap.<br>
+b. akunGH0[All NoBosses are ready!] p00 selesai menunggu.<br>
+c. akunGH1[Good Bye initNoBoss()!] p01, p02, ... selesai menjalankan "initNoBoss()".<br>
+d. akunGH1[Yes, I am ready!] Siapa pun (p00, p01, p02, ...) harus menunggu isyarat dari p00.<br>
+== Isyarat p00 baru diberikan setelah  "All NoBosses are ready!" (butir 13.b di atas).<br>
+e. Masukkan hasil test ke berkas "K04-TEST-RESULT.txt"<br>
+f. Jika DEADLINE masih jauh, silakan mengembangkan "doBoss()" dan "doNotBoss()".<br>
+== Tentunya, sesuai dengan kreatifitas masing-masing.<br>
 14. Info Tambahan
 ```
 #define AKUNSIZE     30    // Jumlah karakter dalam string "akinGitHub" (minus 1).
