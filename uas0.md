@@ -248,16 +248,16 @@ RMS
 +URL: https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=19137 <br>
 +LOG: https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201<br>
  
- 1. "akunGitHub" -- Nama akun yang digunakan untuk mengakses GitHub.com.<br>
+ 1. "akunGitHub" -- Nama akun yang digunakan untuk mengakses GitHub.com.<br><br>
+ 
 +== PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".<br>
- <br>
 -== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/.dummy".<br>
 +== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>
 <br>
 -== Pengumuman Tugas:  8 Juni 2020 (sekitar) jam 13:00.<br>
 +== Pengumuman Tugas:  8 Juni 2020 secepatnya setelah jam 13:00.<br>
 +== Tugas akan diumumkan melalui WhatsApp Group "os201".<br>
-<br>>
+<br>
 +== == Rincian nilai dan tugas akan diumumkan.<br>
 <br>
  g. UAS TAHAPAN SELANJUTNYA.<br>
