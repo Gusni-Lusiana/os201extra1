@@ -25,33 +25,33 @@ Nama akun yang digunakan untuk mengakses GitHub.com. <br>
 
 ## 2. "PRIBADI"    
 Proyek OS201 pribadi, yaitu  <br>
-   https://github.com/akunGitHun/os201/
-a. "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".
-b. "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".
-c. "WEB-PRIBADI/" -- situs GitHub page pribadi 
+   https://github.com/akunGitHun/os201/<br>
+a. "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".<br>
+b. "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".<br>
+c. "WEB-PRIBADI/" -- situs GitHub page pribadi <br>
    https://akunGitHub.github.io/os201/.
 
 ## 3. "BERSAMA" 
--- Proyek OS201 bersama, yaitu 
-== == https://github.com/UI-FASILKOM-OS/os201/.
-== a. "UAS-BERSAMA/" -- Folder "UAS/" dalam "BERSAMA".
-== b. "UAS-BERSAMA/.dummy" -- Berkas "UAS/.dummy" dalam "BERSAMA".
+Proyek OS201 bersama, yaitu <br>
+https://github.com/UI-FASILKOM-OS/os201/.<br>
+a. "UAS-BERSAMA/" -- Folder "UAS/" dalam "BERSAMA".<br>
+b. "UAS-BERSAMA/.dummy" -- Berkas "UAS/.dummy" dalam "BERSAMA".<br>
 
 # BAGIAN B: Ketentuan UAS 201 untuk kelas A, B, C, M
 
 ## 1. GitHub.com:
-== a. memiliki: "akunGitHub". <br>
-== b. membuka proyek "PRIBADI".<br>
-== c. membuat GitHub Page "WEB-PRIBADI/".<br>
-== d. memiliki akses ke proyek "BERSAMA".<br>
-== == HARAP SEGERA MEMBERI TAHU via SCELE, jika belum memiliki AKSES!<br>
-== e. memahami cara membuat/memodifikasi/menghapus berkas maupun folder.<br>
-== f. menambahkan baris "OS201 akunGitHub" pada log setiap "commit".<br>
-== g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>
-== == menghapus berkas .dummy tersebut jika sudah tidak diperlukan.<br>
-== h. memilih menggunakan "antarmuka Web", "CLI", atau pun keduanya.<br>
-== == Lihat juga SCELE:<br>
-== == https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=16744<br>
+a. memiliki: "akunGitHub". <br>
+b. membuka proyek "PRIBADI".<br>
+c. membuat GitHub Page "WEB-PRIBADI/".<br>
+d. memiliki akses ke proyek "BERSAMA".<br>
+   HARAP SEGERA MEMBERI TAHU via SCELE, jika belum memiliki AKSES!<br>
+e. memahami cara membuat/memodifikasi/menghapus berkas maupun folder.<br>
+f. menambahkan baris "OS201 akunGitHub" pada log setiap "commit".<br>
+g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>
+   menghapus berkas .dummy tersebut jika sudah tidak diperlukan.<br>
+h. memilih menggunakan "antarmuka Web", "CLI", atau pun keduanya.<br>
+   Lihat juga SCELE:<br>
+   https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=16744<br>
 
 ## 2. GNUPG:
 == a. memiliki gnupg private/public key yang masih berlaku.<br>
