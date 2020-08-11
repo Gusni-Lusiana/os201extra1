@@ -26,45 +26,44 @@ Nama akun yang digunakan untuk mengakses GitHub.com. <br>
 ## 2. "PRIBADI"    
 Proyek OS201 pribadi, yaitu  <br>
    https://github.com/akunGitHun/os201/<br>
-a. "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".<br>
-b. "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".<br>
-c. "WEB-PRIBADI/" -- situs GitHub page pribadi <br>
+* "UAS-PRIBADI/" -- Folder "UAS/" dalam "PRIBADI".<br>
+* "UAS-PRIBADI/.dummy" -- Berkas "UAS/.dummy" dalam "PRIBADI".<br>
+* "WEB-PRIBADI/" -- situs GitHub page pribadi <br>
    https://akunGitHub.github.io/os201/.
 
 ## 3. "BERSAMA" 
 Proyek OS201 bersama, yaitu <br>
 https://github.com/UI-FASILKOM-OS/os201/.<br>
-a. "UAS-BERSAMA/" -- Folder "UAS/" dalam "BERSAMA".<br>
-b. "UAS-BERSAMA/.dummy" -- Berkas "UAS/.dummy" dalam "BERSAMA".<br>
+* "UAS-BERSAMA/" -- Folder "UAS/" dalam "BERSAMA".<br>
+* "UAS-BERSAMA/.dummy" -- Berkas "UAS/.dummy" dalam "BERSAMA".<br>
 
 # BAGIAN B: Ketentuan UAS 201 untuk kelas A, B, C, M
 
 ## 1. GitHub.com:
-a. memiliki: "akunGitHub". <br>
-b. membuka proyek "PRIBADI".<br>
-c. membuat GitHub Page "WEB-PRIBADI/".<br>
-d. memiliki akses ke proyek "BERSAMA".<br>
-   HARAP SEGERA MEMBERI TAHU via SCELE, jika belum memiliki AKSES!<br>
-e. memahami cara membuat/memodifikasi/menghapus berkas maupun folder.<br>
-f. menambahkan baris "OS201 akunGitHub" pada log setiap "commit".<br>
-g. membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>
-   menghapus berkas .dummy tersebut jika sudah tidak diperlukan.<br>
-h. memilih menggunakan "antarmuka Web", "CLI", atau pun keduanya.<br>
+* memiliki: "akunGitHub". <br>
+* membuka proyek "PRIBADI".<br>
+* membuat GitHub Page "WEB-PRIBADI/".<br>
+* memiliki akses ke proyek "BERSAMA". HARAP SEGERA MEMBERI TAHU via SCELE, jika belum memiliki AKSES!<br>
+* memahami cara membuat/memodifikasi/menghapus berkas maupun folder.<br>
+* menambahkan baris "OS201 akunGitHub" pada log setiap "commit".<br>
+* membuat berkas baru "UAS-PRIBADI/.dummy" dan "UAS-BERSAMA/akunGitHub/.dummy".<br>  menghapus berkas .dummy tersebut jika sudah tidak diperlukan.<br>
+* memilih menggunakan "antarmuka Web", "CLI", atau pun keduanya.<br>
+
    Lihat juga SCELE:<br>
    https://scele.cs.ui.ac.id/mod/forum/discuss.php?d=16744<br>
 
 ## 2. GNUPG:
-== a. memiliki gnupg private/public key yang masih berlaku.<br>
-== b. silakan menggunakan keys yang pernah dibuat sebelumnya.<br>
-== c. jika yang lama hilang, silakan membuat pasangan keys baru.<br>
-== d. jika ragu, silakan menghapus total sistem gpg yang lama.<br>
-== e. Dapat membuat tanda-tangan digital, enkripsi/dekripsi.<br>
-== f. Meletakkan text "public key" (armor) ke dalam berkas: <br>
+* a. memiliki gnupg private/public key yang masih berlaku.<br>
+* b. silakan menggunakan keys yang pernah dibuat sebelumnya.<br>
+* c. jika yang lama hilang, silakan membuat pasangan keys baru.<br>
+* d. jika ragu, silakan menghapus total sistem gpg yang lama.<br>
+* e. Dapat membuat tanda-tangan digital, enkripsi/dekripsi.<br>
+* f. Meletakkan text "public key" (armor) ke dalam berkas: <br>
 == == "UAS-PRIBADI/0000-mypub.txt"<br>
 == == MOHON JANGAN MELETAKKAN "public key" tersebut di "UAS-BERSAMA/"!<br>
-== g. Mengimport "public key" yang tersedia di:<br>
-== == "UAS-BERSAMA/0003-OSPUB.txt" (67DF6DDE)<br>
-== == Recipient: Operating Systems (OS) <operatingsystems@vlsm.org><br>
+* g. Mengimport "public key" yang tersedia di:<br>
+ "UAS-BERSAMA/0003-OSPUB.txt" (67DF6DDE)<br>
+  Recipient: Operating Systems (OS) <operatingsystems@vlsm.org><br>
 
 ## 3. Memiliki akses ke sistem linux (contoh badak):
 == a. Memahami cara menggunakan CLI berbasis "bash".<br>
