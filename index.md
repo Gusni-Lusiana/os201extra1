@@ -83,6 +83,11 @@ Menampilkan nama user
 ```
 echo "Halo $USER!"
 ```
+
+Menampilkan nama Host
+```
+echo "Halo $HOSTNAME!"
+```
  
 Menampilkan nama file shell script yang sedang dijalankan
 ```
@@ -103,6 +108,26 @@ Menampilkan isi direktori aktif
 ```
 echo "Berikut merupakan beberapa file yang terdapat pada direktori aktif:";
 ls
+```
+
+Menghapus file 
+```
+rm file1.txt
+```
+
+Memindahkan file
+```
+mv file1.txt tujuandirektori
+```
+
+Pindah direktori
+```
+cd tujuandirektori
+```
+
+Mengcopy file
+```
+cp file.txt tujuandirektori
 ```
 
 Simpan file tersebut dengan nama tampilkaninfo, kemudian rubah hak akses file agar dapat dieksekusi, dan jalankan.
