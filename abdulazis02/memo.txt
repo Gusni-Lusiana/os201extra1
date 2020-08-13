@@ -12,6 +12,7 @@ A. KEMAJUAN
 == 11. Revisi Laporan Akhir via MD
 == 12. Update Laporan Akhir via MD
 == 13. Pembahasan UAS 0,1
+== 14. Perbaikan laporan akhir index.MD
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
