@@ -248,6 +248,166 @@ rm -rf *.o
 
 # 5. TAR
 
+## 5.1. Cara menggunakan TAR Linux
+Berikut akan dijelaskan operasi dasar yang bisa dilakukan dengan menggunakan Linux tar. Namun sebelumnya, kita harus masuk ke VPS server 
+terlebih dulu melalui SSH. (link dimasukkan ke bagian SSH)
+
+Membuat File Arsip .tar di Linux, kita dapat membuat kompresi .tar untuk file dan direktori. Contoh arsipnya adalah sebagai berikut:
+```
+tar -cvf sampleArchive.tar /home/sampleArchive
+
+/home/sampleArchive adalah direktori yang perlu di-compress untuk membuat sampleArchive.tar.
+```
+
+Command tersebut menggunakan opsi –cvf yang merupakan singkatan dari:
+```
+c – untuk membuat file .tar baru
+v – menunjukkan deskripsi verbose dari proses kompresi
+f – nama file
+```
+
+Membuat File .tar.gz pada Linux, jika kita menginginkan proses kompresi yang lebih baik, gunakan .tar.gz. Sebagai contoh:
+```
+tar -cvzf sampleArchive.tar.gz /home/sampleArchive
+```
+
+Penambahan opsi z merepresentasikan kompresi gzip. Cara lainnya, kita dapat membuat file .tgz yang command-nya mirip dengan tar.gz. Contohnya seperti yang ditunjukkan di bawah ini:
+```
+tar -cvzf sampleArchive.tgz /home/sampleArchive
+```
+
+Membuat File .tar.bz2 pada Linux. File .bz2 menyediakan lebih banyak kompresi dibandingkan dengan gzip. Namun, kita akan membutuhkan lebih banyak waktu untuk melakukan compress dan decompress. Untuk membuat ini, kita perlu menggunakan opsi -j. Contoh operasi adalah:
+```
+tar -cvjf sampleArchive.tar.bz2 /home/sampleArchive
+```
+
+Operasi ini mirip dengan .tar.tbz atau .tar.tb2. Contohnya seperti yang ditunjukkan di bawah ini:
+```
+tar -cvjf sampleArchive.tar.tbz /home/sampleArchive
+tar -cvjf sampleArchive.tar.tb2 /home/sampleArchive
+```
+
+Cara Unzip File .tar pada Linux. Command tar juga dapat digunakan untuk mengekstrak file. Command di bawah ini akan mengekstrak file yang ada di dalam direktori saat ini:
+```
+tar -xvf sampleArchive.tar
+```
+
+Jika kita ingin mengekstrak file ke direktori yang berbeda, gunakan opsi -C. Salah satu contohnya seperti di bawah ini:
+```
+tar -xvf sampleArchive.tar -C /home/ExtractedFiles/
+```
+
+Command serupa dapat digunakan untuk membuka kompresi file .tar.gz seperti yang ditunjukkan di bawah ini:
+```
+tar -xvf sampleArchive.tar.gz
+tar -xvf sampleArchive.tar.gz -C /home/ExtractedFiles/
+```
+
+File .tar.bz2 atau .tar.tbz atau .tar.tb2 dapat dikompresi dengan cara yang sama. Gunakan command di bawah ini:
+```
+tar -xvf sampleArchive.tar.bz2
+```
+
+Cara Menampilkan Daftar Isi Arsip di Linux. Setelah arsip dibuat, kita dapat menampilkan daftar konten menggunakan command yang mirip dengan yang di bawah ini:
+```
+tar -tvf sampleArchive.tar
+```
+
+Command ini akan menampilkan daftar semua file lengkap dengan timestamps dan permission. Demikian pula, untuk .tar.gz, kita dapat menggunakan command seperti:
+```
+tar -tvf sampleArchive.tar.gz
+```
+
+Command di atas juga dapat digunakan untuk file .tar.bz2 seperti yang ditunjukkan di bawah ini:
+```
+tar -tvf sampleArchive.tar.bz2
+```
+
+Cara Unzip File Tunggal .tar. Setelah arsip dibuat, kita dapat mengekstrak sebuah file. Berikut salah satu contohnya:
+```
+tar -xvf sampleArchive.tar example.sh
+```
+
+example.sh adalah file tunggal yang akan diekstra dari sampleArchive.tar. kita juga bisa menggunakan command berikut:
+```
+tar --extract --file= sampleArchive.tar example.sh
+```
+
+Untuk mengekstrak satu file dari .tar.gz, gunakan command yang mirip dengan yang ditunjukkan di bawah ini:
+```
+tar -zxvf sampleArchive.tar.gz example.sh
+```
+
+Atau cara lain seperti berikut ini:
+```
+tar --extract --file= sampleArchive.tar.gz example.sh
+```
+
+Untuk mengekstrak satu file dari .tar.bz2, gunakan command seperti ini:
+```
+tar -jxvf sampleArchive.tar.bz2 example.sh
+```
+
+Atau cara lain seperti berikut ini:
+```
+tar --extract --file= sampleArchive.tar.bz2 example.sh
+```
+
+Cara Ekstrak Banyak File dari Arsip .tar. Jika kita ingin mengekstrak banyak file sekaligus, gunakan format command berikut:
+```
+tar -xvf sampleArchive.tar "file1" "file2"
+```
+
+Untuk .tar.gz, gunakan:
+```
+tar -zxvf sampleArchive.tar.gz "file1" "file2"
+```
+
+Untuk .tar.gz2, gunakan command:
+```
+tar -jxvf sampleArchive.tar.bz2 "file1" "file2"
+```
+
+Ekstrak Banyak File dengan Pattern. Jika kita ingin mengekstraksi pattern file tertentu seperti hanya mengekstrak file .jpg dari arsip, kita dapat gunakan wildcard. Contoh dari command tersebut adalah seperti yang ditunjukkan di bawah ini:
+```
+tar -xvf sampleArchive.tar --wildcards '*.jpg'
+```
+
+Untuk .tar.gz, gunakan:
+```
+tar -zxvf sampleArchive.tar.gz --wildcards '*.jpg'
+```
+
+Untuk .tar.gz2, gunakan command:
+```
+tar -jxvf sampleArchive.tar.bz2 --wildcards '*.jpg'
+```
+
+Cara Menambahkan File ke Arsip .tar. Selain mengekstrak file, kita juga dapat menambahkan file ke dalam arsip yang ada. Untuk melakukannya, kita akan menggunakan opsi -r yang merupakan singkatan dari append. Tar dapat menambahkan file dan direktori.
+Di bawah ini adalah contoh di mana kita akan menambahkan example.jpg ke sampleArchive.tar yang ada.
+```
+tar -rvf sampleArchive.tar example.jpg
+```
+
+Kita juga dapat menambahkan direktori. Pada contoh di bawah ini, direktori image_dir ditambahkan ke sampleArchive.tar
+```
+tar -rvf sampleArchive.tar image_dir
+```
+
+Kita tidak dapat menambahkan file atau folder ke file .tar.gz atau .tar.bz2. Karena file tersebut untuk single file saja.
+Cara Memverifikasi Arsip .tar di Linux. Kita dapat memverifikasi arsip dengan menggunakan tar . Berikut ini adalah salah satu cara untuk melakukannya:
+```
+tar -tvf sampleArchive.tar
+```
+
+Command di atas tidak dapat diterapkan pada file .tar.gz atau .tar.bz2.
+Cara Memeriksa Ukuran Arsip di Linux. Setelah arsip dibuat, Anda dapat mengecek ukurannya. Satuan ukuran arsip akan ditampilkan dalam format KB (Kilobyte). Di bawah ini adalah contoh dari command tersebut dengan file arsip yang berbeda:
+```
+tar -czf - sampleArchive.tar | wc -c
+tar -czf - sampleArchive.tar.gz | wc -c
+tar -czf - sampleArchive.tar.bz2 | wc -c
+```
+
 # 6. GIT
 
 # 7. GitHub
