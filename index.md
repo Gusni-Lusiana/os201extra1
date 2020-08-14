@@ -18,10 +18,10 @@
 [UAS-5](uas5.md)
 
 
-# Scripting
+# 1. Scripting
 
-## 1. Scripting Sederhana<br>
-**1.1. Perintah dasar linux dan fungsinya<br>**
+## 1.1. Scripting Sederhana<br>
+**Perintah dasar linux dan fungsinya<br>**
 * ls  = melihat isi direktori <br>
 * mkdir =  menciptakan direktori <br>
 * cd  = mengubah direktori <br>
@@ -43,7 +43,7 @@
 * locate = Mencari suatu file pada direktori lain yang sedang tidak dikunjungi<br>
 * finger = Melihat informasi user yang telah ditambahkan oleh perintah chfn<br>
 
-## 1.2 Contoh Bash Script
+## 1.2. Contoh Bash Script
 Ini merupakan contoh penggunaan bash pada mode non-interaktif, yaitu dengan membuat dan menjalankan dua bash script sederhana.<br><br>
 
 **Contoh 1:<br>**
@@ -150,7 +150,7 @@ Penjelasan untuk script tampilkaninfo:
 Variabel $USER menyimpan nama user. $USER merupakan salah satu variabel lingkungan (environment variable) yang telah didefinisikan nilainya oleh sistem, dan perubahan terhadap nilai variabel lingkungan mempengaruhi kerja sistem. Telah dijelaskan sebelumnya, jika variabel $0 digunakan di shell script, maka akan memiliki nilai nama file script tersebut.<br><br>
 Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (ganti baris). Sehingga tulisan Hari ini tanggal dan hasil pemanggilan perintah date +"%d %B %Y" (untuk menampilkan tanggal lokal saat script dijalankan dengan format tanggal “tanggal nama bulan tahun”) dapat ditampilkan dalam baris yang sama. Tulisan Anda sedang berada di lokasi dengan hasil pemanggilan perintah pwd juga dapat ditampilkan pada baris yang sama dengan meniadakan newline pada akhir output pemanggilan echo.
 
-# EditorLinux 
+# 2. EditorLinux 
 
 Editor atau biasa disebut text editor, merupakan suatu program yang digunakan untuk keperluan editing file teks. Ada beberapa hal yang 
 membedakan editor Linux dengan editor biasa pada umumnya. Ada beberapa editor Linux yang hanya berbasis CLI seperti VIM, Emacs atau Nano. 
@@ -161,23 +161,23 @@ kita dimanjakan dengan tampilan yang menarik dan serba GUI maka di Linux berbeda
 Selengkapnya: https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
 ```
 
-# GCC
+# 3. GCC
 
-## Perintah GCC
+## 3.1. Perintah GCC
 Untuk melakukan pemrograman C di Linux, kita dapat memanfaatkan kompilator GCC (GNU C Compiler) atau (GNU Collection Compiler).
-Contoh:
 
-## Perintah untuk kompilasi program C
+**Contoh :**
+Perintah untuk kompilasi program C
 ```
 gcc kode_program.c -o nama_program
 ```
 
-## Perintah untuk menjalankan program
+Perintah untuk menjalankan program
 ```
 ./nama_program
 ```
 
-## Contoh kode program
+Contoh kode program
 ```
 #include <stdio.h>
 
@@ -186,11 +186,11 @@ void main(){
 }
 ```
 
-# MakeFile
+# 4. MakeFile
 
 Contoh aplikasi pada bahasa C dengan menggunakan compiler GCC pada linux / Cygwin.
 
-## Contoh 1
+**Contoh 1:**
 Misalkan, telah dibuat program “latihan.c”, maka cara untuk meng-compile-nya adalah dengan mengetikkan syntax berikut pada terminal:
 ```
 gcc -Wall -I. -O2 -o latihan latihan.c
@@ -200,7 +200,7 @@ Jika file-nya dua dan dalam satu folder, misalkan “latihan.c” dan “latihan
 gcc -o latihan latihan.c latihan2.c
 ```
 
-## Contoh 2
+**Contoh 2:**
 Jika dalam suatu project di mana ada ratusan file dan lokasi file berada pada folder yang berbeda-beda, maka yang kita ketikkan di terminal akan lebih banyak lagi, misal:
 ```
 gcc -Wall -I. -I../coba -I../coba2 … -I../cobaX -O2 -o latihan latihan1.c ../coba1/latihan2.c ../coba2/latihan3.c … ../cobaX/latihanX.c
@@ -213,7 +213,7 @@ dan semuanya langsung selesai.
 Secara umum, makefile terdiri dari macro yg berisi suatu definisi-definisi tertentu dan juga command yang akan dijalankan. Sebagai contoh 
 kasus meng-compile file yang cukup banyak tadi, dapat dituliskan dalam makefile yang akan diuraikan di bawah ini.
 
-## Makro
+Makro
 ```
 TARGET = Latihan
 XCC = gcc
@@ -223,7 +223,7 @@ OBJS = latihan1.o latihan2.o latihan3.o
 PATH = ../coba1 ../coba2 ../coba3
 ```
 
-## Syntax untuk compile
+Syntax untuk compile
 ```
 $(TARGET) : $(OBJS)
 $(XCC) $(CFLAGS) $(OBJS) -I$(PATH) -o $(TARGET)
@@ -238,21 +238,21 @@ latihan3.o : latihan3.c latihan3.h
 $(XCC) $(CFLAGS) -I$(PATH) -c latihan3.c
 ```
 
-## Syntax untuk membersihkan file yang tidak perlu
+Syntax untuk membersihkan file yang tidak perlu
 ```
 clean :
 rm -rf *.o
 ```
 
-# TAR
+# 5. TAR
 
-# GIT
+# 6. GIT
 
-# GitHub
+# 7. GitHub
 
-# SHA1
+# 8. SHA1
 
-## Cara mendapatkan SHA-1 file
+## 8.1 Cara mendapatkan SHA-1 file
 Untuk mendapatkan SHA-1 file, lakukan perintah sha1sum. <br>
 SHA-1 akan dicetak terlebih dahulu SHA-1 checksum kemudian nama file.<br>
 Contoh:
@@ -268,7 +268,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## Cara menulis SHA-1 dari sebuah file
+## 8.2 Cara menulis SHA-1 dari sebuah file
 Untuk menulis SHA-1 dari file  dapat menggunakan standard shell redirection<br>
 Contoh:
 ```
@@ -281,11 +281,11 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## Cara memeriksa SHA-1 file
+## 8.3 Cara memeriksa SHA-1 file
 Jika file SHA-1 telah disediakan dari download, ini dapat digunakan untuk memeriksa integritas file yang diunduh apakah sempurna atau corrupt <br>
 Untuk memeriksa SHA-1 file, gunakan opsi -c dan berikan file SHA-1 checksum yang sesuai dengan file atau file yang ingin Anda periksa <br>
 Jika file tidak disediakan dengan unduhan, penulis file biasanya akan mempublikasikan intisari pesan SHA-1 dan ini dapat diperiksa secara manual dengan membandingkan output dari sha1sum [file] dengan intisari pesan yang diterbitkan.<br>
-Contoh:
+**Contoh :**
 ```
 azispro@DESKTOP-F1JL3Q7:~$ ls -F
 Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  SHA1SUM  Tugas.txt
@@ -311,14 +311,14 @@ Tugas.txt: FAILED
 sha1sum: WARNING: 5 computed checksums did NOT match
 ```
 
-# GnuPG
+# 9. GnuPG
 
-## A. Cara Install GnuPG
+## 9.1. Cara Install GnuPG
 
 Silahkan download GnuPG
 [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html)
 
-## B. Informasi GnuPG
+## 9.2. Informasi GnuPG
 
 * Version `--version` <br>
 Perintah `--version` digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)<br>
@@ -349,7 +349,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
 ```
 
 
-## C. Perintah Menjalankan GnuPG
+## 9.3. Perintah Menjalankan GnuPG
 
 
 * PEMBUATAN KEY BARU
