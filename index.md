@@ -421,6 +421,18 @@ git diff <cabang_asal> <cabang_tujuan>
 Untuk penjelasan lengkapnya silahkan cek: https://rogerdudler.github.io/git-guide/index.id.html
 
 # 7. GitHub
+Beberapa hal dasar yang harus dikuasai pada Github untuk pelaksanaan UAS OS:
+1. Membuat akun github.
+Langkah-langkah dalam pembuatan akun github dapat dilihat pada :
+```
+url
+```
+2. Membuat repository.
+Langkah-langkah dalam pembuatan reposiroty dapat dilihat pada :
+```
+https://docs.github.com/en/github/getting-started-with-github/create-a-repo
+```
+3. Fork, Pull, dan Push.
 
 # 8. SHA1
 
