@@ -409,6 +409,73 @@ tar -czf - sampleArchive.tar.bz2 | wc -c
 ```
 
 # 6. GIT
+Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
+
+* Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git
+* Git status : untuk mengetahui status dari repository lokal
+* Git add : menambahkan file baru pada repository yang dipilih
+* Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+* Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+* Git branch : melihat seluruh branch yang ada pada repository
+* Git checkout : menukar branch yang aktif dengan branchyang dipilih
+* GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
+* Git clone : membuat Salinan repository lokal
+```
+Selengkapnya: https://idcloudhost.com/mengenal-apa-itu-git-serta-manfaat-dan-fiturnya-untuk-developer/
+```
+
+## 6.1. Installing GIT
+```
+Selengkapnya: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+```
+
+## 6.2. Panduan Menggunakan GIT
+
+Tambah & Komit. Kita bisa melakukan perubahan (penambahan ke Indeks) menggunakan
+```
+git add <namaberkas>
+git add *
+```
+
+Ini merupakan langkah awal alur-kerja dasar git. Untuk komit sepenuhnya gunakan
+```
+git commit -m "Pesan komit"
+```
+
+Sekarang berkas telah berkomit di HEAD, tapi belum di repositori jarak-jauh. Mengirim perubahan, saat ini perubahan telah tersimpan di HEAD salinan kerja lokal kita. Untuk mengirimkannya ke repositori jarak-jauh, lakukan
+```
+git push origin master
+```
+
+Ubah master sesuai cabang yang kita inginkan. Jika repositori yang ada belum dikloning dan ingin dihubungkan ke server jarak-jauh, kita perlu menambahkan
+```
+git remote add origin <server>
+```
+
+Sekarang kita bisa mengirimkan perubahan ke server jarak-jauh yang dituju. Selanjutnya perbaru & gabung. Untuk memperbarui repositori lokal ke komit terkini, lakukan
+```
+git pull
+```
+
+Dari direktori kerja kita untuk mengambil dan menggabungkan perubahan jarak-jauh. Untuk menggabungkan cabang lain ke cabang aktif (misal master), gunakan
+```
+git merge <cabang>
+```
+
+Pada kasus diatas, git mencoba menggabungkan perubahan secara otomatis. Sayangnya hal ini tak selalu berjalan mulus dan bisa menyebabkan konflik. Kita lah yang bertanggung jawab menggabungkan konflik tersebut secara manual dengan menyunting berkas yang ditunjukkan git. Setelah itu, kita perlu memarkahinya dengan
+```
+git add <namaberkas>
+```
+
+Sebelum penggabungan berlaku, kita bisa melakukan pratinjau menggunakan
+```
+git diff <cabang_asal> <cabang_tujuan>
+```
+
+Untuk penjelasan lengkapnya silahkan cek:
+```
+https://rogerdudler.github.io/git-guide/index.id.html
+```
 
 # 7. GitHub
 
