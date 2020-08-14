@@ -45,7 +45,6 @@
 
 ## 1.2. Contoh Bash Script
 Ini merupakan contoh penggunaan bash pada mode non-interaktif, yaitu dengan membuat dan menjalankan dua bash script sederhana.<br><br>
-
 **Contoh 1:<br>**
 Buat sebuah file dengan nama hello. Anda dapat menggunakan editor apa saja yang Anda kehendaki, vi, vim, emacs, nano, gedit, atau yang lainnya. Kemudian ketikkan script berikut:
 ```#!/bin/bash
