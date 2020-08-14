@@ -157,14 +157,92 @@ membedakan editor Linux dengan editor biasa pada umumnya. Ada beberapa editor Li
 Jika di Windows, kita menemukan Notepad sebagai editor sederhana maka di Linux kita juga akan menemukan Gedit atau Geany. Jika di Windows, 
 kita dimanjakan dengan tampilan yang menarik dan serba GUI maka di Linux berbeda.
 <br>
-Selengkapnya:
 ```
-https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
+Selengkapnya: https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
 ```
 
 # GCC
 
+## Perintah GCC
+Untuk melakukan pemrograman C di Linux, kita dapat memanfaatkan kompilator GCC (GNU C Compiler) atau (GNU Collection Compiler).
+Contoh:
+
+## Perintah untuk kompilasi program C
+```
+gcc kode_program.c -o nama_program
+```
+
+## Perintah untuk menjalankan program
+```
+./nama_program
+```
+
+## Contoh kode program
+```
+#include <stdio.h>
+
+void main(){
+    printf("Hello World\n");
+}
+```
+
 # MakeFile
+
+Contoh aplikasi pada bahasa C dengan menggunakan compiler GCC pada linux / Cygwin.
+
+## Contoh 1
+Misalkan, telah dibuat program “latihan.c”, maka cara untuk meng-compile-nya adalah dengan mengetikkan syntax berikut pada terminal:
+```
+gcc -Wall -I. -O2 -o latihan latihan.c
+```
+Jika file-nya dua dan dalam satu folder, misalkan “latihan.c” dan “latihan2.c” dan ingin di compile menjadi executable file “latihan”, maka:
+```
+gcc -o latihan latihan.c latihan2.c
+```
+
+## Contoh 2
+Jika dalam suatu project di mana ada ratusan file dan lokasi file berada pada folder yang berbeda-beda, maka yang kita ketikkan di terminal akan lebih banyak lagi, misal:
+```
+gcc -Wall -I. -I../coba -I../coba2 … -I../cobaX -O2 -o latihan latihan1.c ../coba1/latihan2.c ../coba2/latihan3.c … ../cobaX/latihanX.c
+```
+Maka syntax yang harus diketik akan semakin banyak jika menerapkan Contoh 1. Pada kasus ini, “makefile” adalah jalan keluarnya. 
+Secara sederhana, makefile dapat diartikan sebagai suatu file yang berisi sekumpulan instruksi yang dipanggil saat kita mengetikkan “make” 
+atau “makefile” di terminal. Dengan adanya makefile, programmer cukup memasukkan nama file yang akan di-compile lalu mengetikkan “make” di terminal, 
+dan semuanya langsung selesai.
+
+Secara umum, makefile terdiri dari macro yg berisi suatu definisi-definisi tertentu dan juga command yang akan dijalankan. Sebagai contoh 
+kasus meng-compile file yang cukup banyak tadi, dapat dituliskan dalam makefile yang akan diuraikan di bawah ini.
+
+## Makro
+```
+TARGET = Latihan
+XCC = gcc
+DEBUG = -g
+CFLAGS = -Wall $(DEBUG)
+OBJS = latihan1.o latihan2.o latihan3.o
+PATH = ../coba1 ../coba2 ../coba3
+```
+
+## Syntax untuk compile
+```
+$(TARGET) : $(OBJS)
+$(XCC) $(CFLAGS) $(OBJS) -I$(PATH) -o $(TARGET)
+
+latihan1.o : latihan1.c latihan1.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan1.c
+
+latihan2.o : latihan2.c latihan2.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan2.c
+
+latihan3.o : latihan3.c latihan3.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan3.c
+```
+
+## Syntax untuk membersihkan file yang tidak perlu
+```
+clean :
+rm -rf *.o
+```
 
 # TAR
 
