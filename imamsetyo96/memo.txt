@@ -7,8 +7,15 @@ A. KEMAJUAN
 5.  Telah mengerjakan pembahasan Git
 6.  Telah mengerjakan pembahasan Sha, Sha1, dan Sha1sum
 7.  Telah mengerjakan pembahasan Terkait File System, Fuse, dan UAS TUGAS5
-8.  Telah mengerjakan UAS 1, 2, 3, 4, dan 5
+8.  Telah mengerjakan UAS 1, 2, 3, 4, dan 5 pribadi
 9.  Finalisasi tips dan pembahasan UAS TUGAS5
+10. Menambahkan file .md pada index.md terkait Scripting sederhana shell/Bash
+11. Menambahkan file .md pada index.md terkait Editor Linux
+12. Menambahkan file .md pada index.md terkait Pemrograman C dan MakeFile
+13. Menambahkan file .md pada index.md terkait Tar
+14. Menambahkan file .md pada index.md terkait Git
+15. Menghapus penjelasan Sha, Sha1, dan Sha1sum pribadi, karena dirasa penjelasan Sha1 sudah cukup
+16. Perbaikan tips dan pembahasan UAS TUGAS5 pada uas5.md
 
 ==========================================================
 B. YANG TELAH DIKERJAKAN
@@ -19,10 +26,10 @@ Tar, Git, Sha, Sha1, dan Sha1sum, dan File System, Fuse, dan mengerjakan UAS 1, 
 ==========================================================
 C. RENCANA
 
-6 Agustus 2020:
-1.  Finalisasi Laporan Akhir
+14 Agustus 2020:
+1.  Finalisasi file .md
 
 ==========================================================
 D. KOORDINASI
 
-Membahas Finalisasi Laporan Akhir
+Membahas Finalisasi file .md
