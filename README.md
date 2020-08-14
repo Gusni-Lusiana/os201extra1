@@ -18,10 +18,10 @@
 [UAS-5](uas5.md)
 
 
-# Scripting
+# 1. Scripting
 
-## 1. Scripting Sederhana<br>
-**1.1. Perintah dasar linux dan fungsinya<br>**
+## 1.1. Scripting Sederhana<br>
+**Perintah dasar linux dan fungsinya<br>**
 * ls  = melihat isi direktori <br>
 * mkdir =  menciptakan direktori <br>
 * cd  = mengubah direktori <br>
@@ -43,9 +43,8 @@
 * locate = Mencari suatu file pada direktori lain yang sedang tidak dikunjungi<br>
 * finger = Melihat informasi user yang telah ditambahkan oleh perintah chfn<br>
 
-## 1.2 Contoh Bash Script
+## 1.2. Contoh Bash Script
 Ini merupakan contoh penggunaan bash pada mode non-interaktif, yaitu dengan membuat dan menjalankan dua bash script sederhana.<br><br>
-
 **Contoh 1:<br>**
 Buat sebuah file dengan nama hello. Anda dapat menggunakan editor apa saja yang Anda kehendaki, vi, vim, emacs, nano, gedit, atau yang lainnya. Kemudian ketikkan script berikut:
 ```#!/bin/bash
@@ -83,6 +82,11 @@ Menampilkan nama user
 ```
 echo "Halo $USER!"
 ```
+
+Menampilkan nama Host
+```
+echo "Halo $HOSTNAME!"
+```
  
 Menampilkan nama file shell script yang sedang dijalankan
 ```
@@ -105,6 +109,26 @@ echo "Berikut merupakan beberapa file yang terdapat pada direktori aktif:";
 ls
 ```
 
+Menghapus file 
+```
+rm file1.txt
+```
+
+Memindahkan file
+```
+mv file1.txt tujuandirektori
+```
+
+Pindah direktori
+```
+cd tujuandirektori
+```
+
+Mengcopy file
+```
+cp file.txt tujuandirektori
+```
+
 Simpan file tersebut dengan nama tampilkaninfo, kemudian rubah hak akses file agar dapat dieksekusi, dan jalankan.
 ```
 $ chmod 755 tampilkaninfo
@@ -125,21 +149,282 @@ Penjelasan untuk script tampilkaninfo:
 Variabel $USER menyimpan nama user. $USER merupakan salah satu variabel lingkungan (environment variable) yang telah didefinisikan nilainya oleh sistem, dan perubahan terhadap nilai variabel lingkungan mempengaruhi kerja sistem. Telah dijelaskan sebelumnya, jika variabel $0 digunakan di shell script, maka akan memiliki nilai nama file script tersebut.<br><br>
 Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (ganti baris). Sehingga tulisan Hari ini tanggal dan hasil pemanggilan perintah date +"%d %B %Y" (untuk menampilkan tanggal lokal saat script dijalankan dengan format tanggal “tanggal nama bulan tahun”) dapat ditampilkan dalam baris yang sama. Tulisan Anda sedang berada di lokasi dengan hasil pemanggilan perintah pwd juga dapat ditampilkan pada baris yang sama dengan meniadakan newline pada akhir output pemanggilan echo.
 
-# EditorLinux 
+# 2. EditorLinux 
 
-# GCC
+Editor atau biasa disebut text editor, merupakan suatu program yang digunakan untuk keperluan editing file teks. Ada beberapa hal yang 
+membedakan editor Linux dengan editor biasa pada umumnya. Ada beberapa editor Linux yang hanya berbasis CLI seperti VIM, Emacs atau Nano. 
+Jika di Windows, kita menemukan Notepad sebagai editor sederhana maka di Linux kita juga akan menemukan Gedit atau Geany. Jika di Windows, 
+kita dimanjakan dengan tampilan yang menarik dan serba GUI maka di Linux berbeda.
+<br>
+Selengkapnya: https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
 
-# MakeFile
+# 3. GCC
 
-# TAR
+## 3.1. Perintah GCC
+Untuk melakukan pemrograman C di Linux, kita dapat memanfaatkan kompilator GCC (GNU C Compiler) atau (GNU Collection Compiler).
 
-# GIT
+**Contoh :<br>**
 
-# GitHub
+Perintah untuk kompilasi program C
+```
+gcc kode_program.c -o nama_program
+```
 
-# SHA1
+Perintah untuk menjalankan program
+```
+./nama_program
+```
 
-## Cara mendapatkan SHA-1 file
+Contoh kode program
+```
+#include <stdio.h>
+
+void main(){
+    printf("Hello World\n");
+}
+```
+
+# 4. MakeFile
+
+Contoh aplikasi pada bahasa C dengan menggunakan compiler GCC pada linux / Cygwin.
+
+**Contoh 1:<br>**
+Misalkan, telah dibuat program “latihan.c”, maka cara untuk meng-compile-nya adalah dengan mengetikkan syntax berikut pada terminal:
+```
+gcc -Wall -I. -O2 -o latihan latihan.c
+```
+Jika file-nya dua dan dalam satu folder, misalkan “latihan.c” dan “latihan2.c” dan ingin di compile menjadi executable file “latihan”, maka:
+```
+gcc -o latihan latihan.c latihan2.c
+```
+
+**Contoh 2:<br>**
+
+Jika dalam suatu project di mana ada ratusan file dan lokasi file berada pada folder yang berbeda-beda, maka yang kita ketikkan di terminal akan lebih banyak lagi, misal:
+```
+gcc -Wall -I. -I../coba -I../coba2 … -I../cobaX -O2 -o latihan latihan1.c ../coba1/latihan2.c ../coba2/latihan3.c … ../cobaX/latihanX.c
+```
+Maka syntax yang harus diketik akan semakin banyak jika menerapkan Contoh 1. Pada kasus ini, “makefile” adalah jalan keluarnya. 
+Secara sederhana, makefile dapat diartikan sebagai suatu file yang berisi sekumpulan instruksi yang dipanggil saat kita mengetikkan “make” 
+atau “makefile” di terminal. Dengan adanya makefile, programmer cukup memasukkan nama file yang akan di-compile lalu mengetikkan “make” di terminal, 
+dan semuanya langsung selesai.
+
+Secara umum, makefile terdiri dari macro yg berisi suatu definisi-definisi tertentu dan juga command yang akan dijalankan. Sebagai contoh 
+kasus meng-compile file yang cukup banyak tadi, dapat dituliskan dalam makefile yang akan diuraikan di bawah ini.
+
+Makro
+```
+TARGET = Latihan
+XCC = gcc
+DEBUG = -g
+CFLAGS = -Wall $(DEBUG)
+OBJS = latihan1.o latihan2.o latihan3.o
+PATH = ../coba1 ../coba2 ../coba3
+```
+
+Syntax untuk compile
+```
+$(TARGET) : $(OBJS)
+$(XCC) $(CFLAGS) $(OBJS) -I$(PATH) -o $(TARGET)
+
+latihan1.o : latihan1.c latihan1.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan1.c
+
+latihan2.o : latihan2.c latihan2.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan2.c
+
+latihan3.o : latihan3.c latihan3.h
+$(XCC) $(CFLAGS) -I$(PATH) -c latihan3.c
+```
+
+Syntax untuk membersihkan file yang tidak perlu
+```
+clean :
+rm -rf *.o
+```
+
+# 5. TAR
+
+## 5.1. Cara menggunakan TAR Linux
+Berikut akan dijelaskan operasi dasar yang bisa dilakukan dengan menggunakan Linux tar. Namun sebelumnya, kita harus masuk ke VPS server 
+terlebih dulu melalui SSH. (link dimasukkan ke bagian SSH)
+
+Membuat File Arsip .tar di Linux, kita dapat membuat kompresi .tar untuk file dan direktori. Contoh arsipnya adalah sebagai berikut:
+```
+tar -cvf sampleArchive.tar /home/sampleArchive
+
+/home/sampleArchive adalah direktori yang perlu di-compress untuk membuat sampleArchive.tar.
+```
+
+Command tersebut menggunakan opsi –cvf yang merupakan singkatan dari:
+```
+c – untuk membuat file .tar baru
+v – menunjukkan deskripsi verbose dari proses kompresi
+f – nama file
+```
+
+Membuat File .tar.gz pada Linux, jika kita menginginkan proses kompresi yang lebih baik, gunakan .tar.gz. Sebagai contoh:
+```
+tar -cvzf sampleArchive.tar.gz /home/sampleArchive
+```
+
+Penambahan opsi z merepresentasikan kompresi gzip. Cara lainnya, kita dapat membuat file .tgz yang command-nya mirip dengan tar.gz. Contohnya seperti yang ditunjukkan di bawah ini:
+```
+tar -cvzf sampleArchive.tgz /home/sampleArchive
+```
+
+Membuat File .tar.bz2 pada Linux. File .bz2 menyediakan lebih banyak kompresi dibandingkan dengan gzip. Namun, kita akan membutuhkan lebih banyak waktu untuk melakukan compress dan decompress. Untuk membuat ini, kita perlu menggunakan opsi -j. Contoh operasi adalah:
+```
+tar -cvjf sampleArchive.tar.bz2 /home/sampleArchive
+```
+
+Operasi ini mirip dengan .tar.tbz atau .tar.tb2. Contohnya seperti yang ditunjukkan di bawah ini:
+```
+tar -cvjf sampleArchive.tar.tbz /home/sampleArchive
+tar -cvjf sampleArchive.tar.tb2 /home/sampleArchive
+```
+
+Cara Unzip File .tar pada Linux. Command tar juga dapat digunakan untuk mengekstrak file. Command di bawah ini akan mengekstrak file yang ada di dalam direktori saat ini:
+```
+tar -xvf sampleArchive.tar
+```
+
+Jika kita ingin mengekstrak file ke direktori yang berbeda, gunakan opsi -C. Salah satu contohnya seperti di bawah ini:
+```
+tar -xvf sampleArchive.tar -C /home/ExtractedFiles/
+```
+
+Command serupa dapat digunakan untuk membuka kompresi file .tar.gz seperti yang ditunjukkan di bawah ini:
+```
+tar -xvf sampleArchive.tar.gz
+tar -xvf sampleArchive.tar.gz -C /home/ExtractedFiles/
+```
+
+File .tar.bz2 atau .tar.tbz atau .tar.tb2 dapat dikompresi dengan cara yang sama. Gunakan command di bawah ini:
+```
+tar -xvf sampleArchive.tar.bz2
+```
+
+Cara Menampilkan Daftar Isi Arsip di Linux. Setelah arsip dibuat, kita dapat menampilkan daftar konten menggunakan command yang mirip dengan yang di bawah ini:
+```
+tar -tvf sampleArchive.tar
+```
+
+Command ini akan menampilkan daftar semua file lengkap dengan timestamps dan permission. Demikian pula, untuk .tar.gz, kita dapat menggunakan command seperti:
+```
+tar -tvf sampleArchive.tar.gz
+```
+
+Command di atas juga dapat digunakan untuk file .tar.bz2 seperti yang ditunjukkan di bawah ini:
+```
+tar -tvf sampleArchive.tar.bz2
+```
+
+Cara Unzip File Tunggal .tar. Setelah arsip dibuat, kita dapat mengekstrak sebuah file. Berikut salah satu contohnya:
+```
+tar -xvf sampleArchive.tar example.sh
+```
+
+Cara Ekstrak Banyak File dari Arsip .tar. Jika kita ingin mengekstrak banyak file sekaligus, gunakan format command berikut:
+```
+tar -xvf sampleArchive.tar "file1" "file2"
+```
+
+Untuk .tar.gz, gunakan:
+```
+tar -zxvf sampleArchive.tar.gz "file1" "file2"
+```
+
+Untuk .tar.gz2, gunakan command:
+```
+tar -jxvf sampleArchive.tar.bz2 "file1" "file2"
+```
+
+Kita tidak dapat menambahkan file atau folder ke file .tar.gz atau .tar.bz2. Karena file tersebut untuk single file saja.
+Cara Memverifikasi Arsip .tar di Linux. Kita dapat memverifikasi arsip dengan menggunakan tar . Berikut ini adalah salah satu cara untuk melakukannya:
+```
+tar -tvf sampleArchive.tar
+```
+
+Command di atas tidak dapat diterapkan pada file .tar.gz atau .tar.bz2.
+Cara Memeriksa Ukuran Arsip di Linux. Setelah arsip dibuat, Anda dapat mengecek ukurannya. Satuan ukuran arsip akan ditampilkan dalam format KB (Kilobyte). Di bawah ini adalah contoh dari command tersebut dengan file arsip yang berbeda:
+```
+tar -czf - sampleArchive.tar | wc -c
+tar -czf - sampleArchive.tar.gz | wc -c
+tar -czf - sampleArchive.tar.bz2 | wc -c
+```
+
+Selengkapnya: https://www.hostinger.co.id/tutorial/tar-linux/
+
+# 6. GIT
+Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
+
+* Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git
+* Git status : untuk mengetahui status dari repository lokal
+* Git add : menambahkan file baru pada repository yang dipilih
+* Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+* Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+* Git branch : melihat seluruh branch yang ada pada repository
+* Git checkout : menukar branch yang aktif dengan branchyang dipilih
+* GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
+* Git clone : membuat Salinan repository lokal
+
+Selengkapnya: https://idcloudhost.com/mengenal-apa-itu-git-serta-manfaat-dan-fiturnya-untuk-developer/
+
+## 6.1. Installing GIT
+
+Selengkapnya: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+## 6.2. Panduan Menggunakan GIT
+
+Tambah & Komit. Kita bisa melakukan perubahan (penambahan ke Indeks) menggunakan
+```
+git add <namaberkas>
+git add *
+```
+
+Ini merupakan langkah awal alur-kerja dasar git. Untuk komit sepenuhnya gunakan
+```
+git commit -m "Pesan komit"
+```
+
+Sekarang berkas telah berkomit di HEAD, tapi belum di repositori jarak-jauh. Mengirim perubahan, saat ini perubahan telah tersimpan di HEAD salinan kerja lokal kita. Untuk mengirimkannya ke repositori jarak-jauh, lakukan
+```
+git push origin master
+```
+
+Ubah master sesuai cabang yang kita inginkan. Jika repositori yang ada belum dikloning dan ingin dihubungkan ke server jarak-jauh, kita perlu menambahkan
+```
+git remote add origin <server>
+```
+
+Sekarang kita bisa mengirimkan perubahan ke server jarak-jauh yang dituju. Selanjutnya perbaru & gabung. Untuk memperbarui repositori lokal ke komit terkini, lakukan
+```
+git pull
+```
+
+Dari direktori kerja kita untuk mengambil dan menggabungkan perubahan jarak-jauh. Untuk menggabungkan cabang lain ke cabang aktif (misal master), gunakan
+```
+git merge <cabang>
+```
+
+Pada kasus diatas, git mencoba menggabungkan perubahan secara otomatis. Sayangnya hal ini tak selalu berjalan mulus dan bisa menyebabkan konflik. Kita lah yang bertanggung jawab menggabungkan konflik tersebut secara manual dengan menyunting berkas yang ditunjukkan git. Setelah itu, kita perlu memarkahinya dengan
+```
+git add <namaberkas>
+```
+
+Sebelum penggabungan berlaku, kita bisa melakukan pratinjau menggunakan
+```
+git diff <cabang_asal> <cabang_tujuan>
+```
+
+Untuk penjelasan lengkapnya silahkan cek: https://rogerdudler.github.io/git-guide/index.id.html
+
+# 7. GitHub
+
+# 8. SHA1
+
+## 8.1. Cara mendapatkan SHA-1 file
 Untuk mendapatkan SHA-1 file, lakukan perintah sha1sum. <br>
 SHA-1 akan dicetak terlebih dahulu SHA-1 checksum kemudian nama file.<br>
 Contoh:
@@ -155,7 +440,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## Cara menulis SHA-1 dari sebuah file
+## 8.2. Cara menulis SHA-1 dari sebuah file
 Untuk menulis SHA-1 dari file  dapat menggunakan standard shell redirection<br>
 Contoh:
 ```
@@ -168,11 +453,11 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## Cara memeriksa SHA-1 file
+## 8.3. Cara memeriksa SHA-1 file
 Jika file SHA-1 telah disediakan dari download, ini dapat digunakan untuk memeriksa integritas file yang diunduh apakah sempurna atau corrupt <br>
 Untuk memeriksa SHA-1 file, gunakan opsi -c dan berikan file SHA-1 checksum yang sesuai dengan file atau file yang ingin Anda periksa <br>
 Jika file tidak disediakan dengan unduhan, penulis file biasanya akan mempublikasikan intisari pesan SHA-1 dan ini dapat diperiksa secara manual dengan membandingkan output dari sha1sum [file] dengan intisari pesan yang diterbitkan.<br>
-Contoh:
+**Contoh :**
 ```
 azispro@DESKTOP-F1JL3Q7:~$ ls -F
 Buku.txt  Jadwal.txt  Panduan.txt  Project.txt  SHA1SUM  Tugas.txt
@@ -198,14 +483,14 @@ Tugas.txt: FAILED
 sha1sum: WARNING: 5 computed checksums did NOT match
 ```
 
-# GnuPG
+# 9. GnuPG
 
-## A. Cara Install GnuPG
+## 9.1. Cara Install GnuPG
 
 Silahkan download GnuPG
 [https://gnupg.org/download/index.html](https://gnupg.org/download/index.html)
 
-## B. Informasi GnuPG
+## 9.2. Informasi GnuPG
 
 * Version `--version` <br>
 Perintah `--version` digunakan untuk mendapatkan informasi tentang versi gpg (GnuPG)<br>
@@ -236,7 +521,7 @@ azispro@DESKTOP-F1JL3Q7:~$ gpg --dump-options
 ```
 
 
-## C. Perintah Menjalankan GnuPG
+## 9.3. Perintah Menjalankan GnuPG
 
 
 * PEMBUATAN KEY BARU
