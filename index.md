@@ -152,6 +152,16 @@ Dengan menggunakan argumen -n pada echo, teks tidak diakhiri dengan newline (gan
 
 # EditorLinux 
 
+Editor atau biasa disebut text editor, merupakan suatu program yang digunakan untuk keperluan editing file teks. Ada beberapa hal yang 
+membedakan editor Linux dengan editor biasa pada umumnya. Ada beberapa editor Linux yang hanya berbasis CLI seperti VIM, Emacs atau Nano. 
+Jika di Windows, kita menemukan Notepad sebagai editor sederhana maka di Linux kita juga akan menemukan Gedit atau Geany. Jika di Windows, 
+kita dimanjakan dengan tampilan yang menarik dan serba GUI maka di Linux berbeda.
+<br>
+Selengkapnya:
+```
+https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
+```
+
 # GCC
 
 # MakeFile
