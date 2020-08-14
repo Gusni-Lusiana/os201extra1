@@ -166,7 +166,8 @@ Selengkapnya: https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tah
 ## 3.1. Perintah GCC
 Untuk melakukan pemrograman C di Linux, kita dapat memanfaatkan kompilator GCC (GNU C Compiler) atau (GNU Collection Compiler).
 
-**Contoh :**
+**Contoh :<br>**
+
 Perintah untuk kompilasi program C
 ```
 gcc kode_program.c -o nama_program
@@ -190,7 +191,7 @@ void main(){
 
 Contoh aplikasi pada bahasa C dengan menggunakan compiler GCC pada linux / Cygwin.
 
-**Contoh 1:**
+**Contoh 1:<br>**
 Misalkan, telah dibuat program “latihan.c”, maka cara untuk meng-compile-nya adalah dengan mengetikkan syntax berikut pada terminal:
 ```
 gcc -Wall -I. -O2 -o latihan latihan.c
@@ -200,7 +201,8 @@ Jika file-nya dua dan dalam satu folder, misalkan “latihan.c” dan “latihan
 gcc -o latihan latihan.c latihan2.c
 ```
 
-**Contoh 2:**
+**Contoh 2:<br>**
+
 Jika dalam suatu project di mana ada ratusan file dan lokasi file berada pada folder yang berbeda-beda, maka yang kita ketikkan di terminal akan lebih banyak lagi, misal:
 ```
 gcc -Wall -I. -I../coba -I../coba2 … -I../cobaX -O2 -o latihan latihan1.c ../coba1/latihan2.c ../coba2/latihan3.c … ../cobaX/latihanX.c
@@ -252,7 +254,7 @@ rm -rf *.o
 
 # 8. SHA1
 
-## 8.1 Cara mendapatkan SHA-1 file
+## 8.1. Cara mendapatkan SHA-1 file
 Untuk mendapatkan SHA-1 file, lakukan perintah sha1sum. <br>
 SHA-1 akan dicetak terlebih dahulu SHA-1 checksum kemudian nama file.<br>
 Contoh:
@@ -268,7 +270,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## 8.2 Cara menulis SHA-1 dari sebuah file
+## 8.2. Cara menulis SHA-1 dari sebuah file
 Untuk menulis SHA-1 dari file  dapat menggunakan standard shell redirection<br>
 Contoh:
 ```
@@ -281,7 +283,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709 *Project.txt
 da39a3ee5e6b4b0d3255bfef95601890afd80709 *Tugas.txt
 ```
 
-## 8.3 Cara memeriksa SHA-1 file
+## 8.3. Cara memeriksa SHA-1 file
 Jika file SHA-1 telah disediakan dari download, ini dapat digunakan untuk memeriksa integritas file yang diunduh apakah sempurna atau corrupt <br>
 Untuk memeriksa SHA-1 file, gunakan opsi -c dan berikan file SHA-1 checksum yang sesuai dengan file atau file yang ingin Anda periksa <br>
 Jika file tidak disediakan dengan unduhan, penulis file biasanya akan mempublikasikan intisari pesan SHA-1 dan ini dapat diperiksa secara manual dengan membandingkan output dari sha1sum [file] dengan intisari pesan yang diterbitkan.<br>
