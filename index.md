@@ -156,9 +156,7 @@ membedakan editor Linux dengan editor biasa pada umumnya. Ada beberapa editor Li
 Jika di Windows, kita menemukan Notepad sebagai editor sederhana maka di Linux kita juga akan menemukan Gedit atau Geany. Jika di Windows, 
 kita dimanjakan dengan tampilan yang menarik dan serba GUI maka di Linux berbeda.
 <br>
-```
 Selengkapnya: https://www.domainesia.com/tips/5-editor-linux-yang-wajib-kamu-tahu/
-```
 
 # 3. GCC
 
@@ -327,31 +325,6 @@ Cara Unzip File Tunggal .tar. Setelah arsip dibuat, kita dapat mengekstrak sebua
 tar -xvf sampleArchive.tar example.sh
 ```
 
-example.sh adalah file tunggal yang akan diekstra dari sampleArchive.tar. kita juga bisa menggunakan command berikut:
-```
-tar --extract --file= sampleArchive.tar example.sh
-```
-
-Untuk mengekstrak satu file dari .tar.gz, gunakan command yang mirip dengan yang ditunjukkan di bawah ini:
-```
-tar -zxvf sampleArchive.tar.gz example.sh
-```
-
-Atau cara lain seperti berikut ini:
-```
-tar --extract --file= sampleArchive.tar.gz example.sh
-```
-
-Untuk mengekstrak satu file dari .tar.bz2, gunakan command seperti ini:
-```
-tar -jxvf sampleArchive.tar.bz2 example.sh
-```
-
-Atau cara lain seperti berikut ini:
-```
-tar --extract --file= sampleArchive.tar.bz2 example.sh
-```
-
 Cara Ekstrak Banyak File dari Arsip .tar. Jika kita ingin mengekstrak banyak file sekaligus, gunakan format command berikut:
 ```
 tar -xvf sampleArchive.tar "file1" "file2"
@@ -365,32 +338,6 @@ tar -zxvf sampleArchive.tar.gz "file1" "file2"
 Untuk .tar.gz2, gunakan command:
 ```
 tar -jxvf sampleArchive.tar.bz2 "file1" "file2"
-```
-
-Ekstrak Banyak File dengan Pattern. Jika kita ingin mengekstraksi pattern file tertentu seperti hanya mengekstrak file .jpg dari arsip, kita dapat gunakan wildcard. Contoh dari command tersebut adalah seperti yang ditunjukkan di bawah ini:
-```
-tar -xvf sampleArchive.tar --wildcards '*.jpg'
-```
-
-Untuk .tar.gz, gunakan:
-```
-tar -zxvf sampleArchive.tar.gz --wildcards '*.jpg'
-```
-
-Untuk .tar.gz2, gunakan command:
-```
-tar -jxvf sampleArchive.tar.bz2 --wildcards '*.jpg'
-```
-
-Cara Menambahkan File ke Arsip .tar. Selain mengekstrak file, kita juga dapat menambahkan file ke dalam arsip yang ada. Untuk melakukannya, kita akan menggunakan opsi -r yang merupakan singkatan dari append. Tar dapat menambahkan file dan direktori.
-Di bawah ini adalah contoh di mana kita akan menambahkan example.jpg ke sampleArchive.tar yang ada.
-```
-tar -rvf sampleArchive.tar example.jpg
-```
-
-Kita juga dapat menambahkan direktori. Pada contoh di bawah ini, direktori image_dir ditambahkan ke sampleArchive.tar
-```
-tar -rvf sampleArchive.tar image_dir
 ```
 
 Kita tidak dapat menambahkan file atau folder ke file .tar.gz atau .tar.bz2. Karena file tersebut untuk single file saja.
@@ -407,6 +354,8 @@ tar -czf - sampleArchive.tar.gz | wc -c
 tar -czf - sampleArchive.tar.bz2 | wc -c
 ```
 
+Selengkapnya: https://www.hostinger.co.id/tutorial/tar-linux/
+
 # 6. GIT
 Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
 
@@ -419,14 +368,12 @@ Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
 * Git checkout : menukar branch yang aktif dengan branchyang dipilih
 * GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
 * Git clone : membuat Salinan repository lokal
-```
+
 Selengkapnya: https://idcloudhost.com/mengenal-apa-itu-git-serta-manfaat-dan-fiturnya-untuk-developer/
-```
 
 ## 6.1. Installing GIT
-```
+
 Selengkapnya: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-```
 
 ## 6.2. Panduan Menggunakan GIT
 
@@ -471,10 +418,7 @@ Sebelum penggabungan berlaku, kita bisa melakukan pratinjau menggunakan
 git diff <cabang_asal> <cabang_tujuan>
 ```
 
-Untuk penjelasan lengkapnya silahkan cek:
-```
-https://rogerdudler.github.io/git-guide/index.id.html
-```
+Untuk penjelasan lengkapnya silahkan cek: https://rogerdudler.github.io/git-guide/index.id.html
 
 # 7. GitHub
 
