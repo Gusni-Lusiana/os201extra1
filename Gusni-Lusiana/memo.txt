@@ -4,23 +4,21 @@ A. KEMAJUAN
 == 3. Telah menyelesaikan tentang cara penggunaan gcc dan Makefile
 == 4. Telah mempelajari dan memulai membuat tips untuk UAS
 == 5. Compile semua pembahasan kedalam format Latex (github, gnupg, git, dll)
+== 6. Melakukan update file laporan pada index.md
 
 ==========================================================
 
 B. YANG TELAH DIKERJAKAN
 
-Senin, 3 Agustus 2020
-1. Melakukan pengecekan untuk UAS 3 (karena sebelumnya hanyak mencapai nilai setengah)
+1. Melakukan pengecekan apakah petunjuk laporan index.md dapat dipahami oleh orang lain.
 
 ==========================================================
 
 C. RENCANA
-Rabu, 4 Agustus 2020
-1. Melanjutkan diskusi untuk uas 3,4,5
+1. Menyelesaikan laporan
 
 ==========================================================
 
 D. KOORDINASI
 
-Senin, 3 Agustus 2020
-melalui chatgroup wa
+melakukan diskusi untuk pengerjaan laporan menggunakan file index.md
