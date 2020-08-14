@@ -19,7 +19,7 @@
 
 # BAGIAN A: ISTILAH
 
-### 1. "akunGitHub" 
+## 1. "akunGitHub" 
 Nama akun yang digunakan untuk mengakses GitHub.com. <br>
 * PERHATIAN: Dalam bash akan digunakan variable "GitHubUser".
 
@@ -84,7 +84,6 @@ Contoh: printf() ---> #include <stdio.h>.<br>
 
 ## 6. Secara berkala memeriksa log di:
 https://github.com/UI-FASILKOM-OS/SistemOperasi/tree/master/Log/201/
-
 
 # BAGIAN C: PERSIAPAN UAS
 
